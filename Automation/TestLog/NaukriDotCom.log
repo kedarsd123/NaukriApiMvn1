@@ -1,0 +1,2082 @@
+Config VBS File Read Successfully
+Before Test : All Folders Created And Logger
+Test Start : TC_001_Run
+Input Jobs Read Successfully
+Test Success : TC_001_Run
+Test Start : TC_002_Run
+Website nakridotcom launched successfully
+Job Search For : uft automation Pune
+Job Results For uft automation Pune
+Test Success : TC_002_Run
+Test Start : TC_002_Run
+Website nakridotcom launched successfully
+Job Search For : selenium testing Pune
+Job Results For selenium testing Pune
+Test Success : TC_002_Run
+Test Start : TC_003_Run
+Job Results Exported To Excel
+Summary Report Format Successfull
+Saving JobReportSummary by local date format
+Saved To E:\SeleniumProjects\NaukriApiMvn1\Automation\TestReport\JobSummaryReport_04-06-2024 19_01_19.xlsx
+Test Success : TC_003_Run
+Test Start : TC_004_Run
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 429[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 429
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Automation Testing,Selenium Testing,Automation Selenium,Software,Automation,Selenium,Software testing,Software engineering","Company Name":"HCLTech","Salary":"Not disclosed","Experience":"0-2 Yrs","Job Title":"HCLTech|| Software Engineer||Automation Testing\/Selenium","Expectation":". Good Knowledge of Web Environment, Web Elements, and Operations on the Web ElementsGo...","Location":"Pune, Noida, Chennai"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/1[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 468[\r][\n]"
+ << "ETag: W/"1d4-tIHBydLqij6UC/uSNMgim16wO2k"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/1
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 468
+<< ETag: W/"1d4-tIHBydLqij6UC/uSNMgim16wO2k"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Automation Testing,Selenium Testing,Automation Selenium,Software,Automation,Selenium,Software testing,Software engineering",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "0-2 Yrs",[\n]"
+ << "  "Job Title": "HCLTech|| Software Engineer||Automation Testing/Selenium",[\n]"
+ << "  "Expectation": ". Good Knowledge of Web Environment, Web Elements, and Operations on the Web ElementsGo...",[\n]"
+ << "  "Location": "Pune, Noida, Chennai",[\n]"
+ << "  "id": 1[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@538a90a5
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 335[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 335
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Selenium Automation,Selenium Testing,Selenium Java,Selenium,Java,Automation,Automation testing,Software testing","Company Name":"HCLTech","Salary":"Not disclosed","Experience":"4-8 Yrs","Job Title":"Selenium Automation Tester","Expectation":"Selenium TestingAutomation Testing","Location":"Pune, Chennai, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/2[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 375[\r][\n]"
+ << "ETag: W/"177-muLL1TvXfs4jTmdx8Rdd7GVZS+w"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/2
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 375
+<< ETag: W/"177-muLL1TvXfs4jTmdx8Rdd7GVZS+w"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Selenium Automation,Selenium Testing,Selenium Java,Selenium,Java,Automation,Automation testing,Software testing",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "4-8 Yrs",[\n]"
+ << "  "Job Title": "Selenium Automation Tester",[\n]"
+ << "  "Expectation": "Selenium TestingAutomation Testing",[\n]"
+ << "  "Location": "Pune, Chennai, Bengaluru",[\n]"
+ << "  "id": 2[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5847010
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 288[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 288
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Java,Selenium,Cucumber,Selenium Testing,Software testing","Company Name":"HCLTech","Salary":"Not disclosed","Experience":"4-9 Yrs","Job Title":"Selenium Tester","Expectation":"Must have knowledge of Selenium and one programming language such as Java","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/3[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 328[\r][\n]"
+ << "ETag: W/"148-zq+bJjEcZWYYT+cGw4HxCjFv0xw"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/3
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 328
+<< ETag: W/"148-zq+bJjEcZWYYT+cGw4HxCjFv0xw"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Java,Selenium,Cucumber,Selenium Testing,Software testing",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "4-9 Yrs",[\n]"
+ << "  "Job Title": "Selenium Tester",[\n]"
+ << "  "Expectation": "Must have knowledge of Selenium and one programming language such as Java",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 3[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@34ede267
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 399[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 399
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Selenium Automation Testing,Selenium Testing,Selenium Webdriver,Selenium Automation,Java Selenium,Selenium RC,Selenium IDE,Selenium Java","Company Name":"HCLTech","Salary":"1.5-6.5 Lacs PA","Experience":"3-7 Yrs","Job Title":"Selenium Tester","Expectation":"A Selenium test automation tool\/software testing\/automation frameworks\/test environment...","Location":"Hybrid - Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/4[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 436[\r][\n]"
+ << "ETag: W/"1b4-WOLL981047o+Z4ELmIwLW40Q6tA"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/4
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 436
+<< ETag: W/"1b4-WOLL981047o+Z4ELmIwLW40Q6tA"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Selenium Automation Testing,Selenium Testing,Selenium Webdriver,Selenium Automation,Java Selenium,Selenium RC,Selenium IDE,Selenium Java",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "1.5-6.5 Lacs PA",[\n]"
+ << "  "Experience": "3-7 Yrs",[\n]"
+ << "  "Job Title": "Selenium Tester",[\n]"
+ << "  "Expectation": "A Selenium test automation tool/software testing/automation frameworks/test environment...",[\n]"
+ << "  "Location": "Hybrid - Pune",[\n]"
+ << "  "id": 4[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@e1fd2bf
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 421[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 421
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Administration,Automation,Automation testing,Testing tools,Programming,Selenium,Application software,Enterprise software","Company Name":"HCLTech","Salary":"Not disclosed","Experience":"1-3 Yrs","Job Title":"Automation Tester - Selenium","Expectation":"Must possess critical thinking skills in addition to good interpersonal and communicati...","Location":"Pune, Mumbai, Hyderabad, Chennai, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/5[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 461[\r][\n]"
+ << "ETag: W/"1cd-QXL64cwkd0xURY8ZdyD/DkVdvP8"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/5
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 461
+<< ETag: W/"1cd-QXL64cwkd0xURY8ZdyD/DkVdvP8"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Administration,Automation,Automation testing,Testing tools,Programming,Selenium,Application software,Enterprise software",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "1-3 Yrs",[\n]"
+ << "  "Job Title": "Automation Tester - Selenium",[\n]"
+ << "  "Expectation": "Must possess critical thinking skills in addition to good interpersonal and communicati...",[\n]"
+ << "  "Location": "Pune, Mumbai, Hyderabad, Chennai, Bengaluru",[\n]"
+ << "  "id": 5[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@8e8ceb3
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 381[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 381
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Core Java,SDET,Selenium Automation,Cucumber,Automation testing,Test NG,API,Software testing","Company Name":"HCLTech","Salary":"Not disclosed","Experience":"5-10 Yrs","Job Title":"Selenium Automation Tester with Java","Expectation":"Sr SDET Exp: 5-10 yrs Loc: Pune, Hyderabad Selenium, automationJavaTestNG BDD & Cucumb...","Location":"Hybrid - Pune, Hyderabad"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/6[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 421[\r][\n]"
+ << "ETag: W/"1a5-UKzFvMNUk7puIYeozOGMAusrl68"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/6
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 421
+<< ETag: W/"1a5-UKzFvMNUk7puIYeozOGMAusrl68"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Core Java,SDET,Selenium Automation,Cucumber,Automation testing,Test NG,API,Software testing",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "5-10 Yrs",[\n]"
+ << "  "Job Title": "Selenium Automation Tester with Java",[\n]"
+ << "  "Expectation": "Sr SDET Exp: 5-10 yrs Loc: Pune, Hyderabad Selenium, automationJavaTestNG BDD & Cucumb...",[\n]"
+ << "  "Location": "Hybrid - Pune, Hyderabad",[\n]"
+ << "  "id": 6[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@65b19e5c
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 304[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 304
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Pyspark,HIVE,Snowflake,SQL,Python,WebDriver,CI\/CD,troubleshooting","Company Name":"HCLTech","Salary":"Not disclosed","Experience":"2-3 Yrs","Job Title":"Selenium Tester","Expectation":"Writing SQLs to test the data and have good understanding of HIVE and snowflake","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/7[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 343[\r][\n]"
+ << "ETag: W/"157-3LWba+F3XVKQ+6UDaniieN7wtq0"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/7
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 343
+<< ETag: W/"157-3LWba+F3XVKQ+6UDaniieN7wtq0"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Pyspark,HIVE,Snowflake,SQL,Python,WebDriver,CI/CD,troubleshooting",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "2-3 Yrs",[\n]"
+ << "  "Job Title": "Selenium Tester",[\n]"
+ << "  "Expectation": "Writing SQLs to test the data and have good understanding of HIVE and snowflake",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 7[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@233ece92
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 419[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 419
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Typescript,Cypress,Javascript,Selenium,Webdriverio,Bdd Framework,Api Automation,Ui Automation","Company Name":"HCLTech","Salary":"Not disclosed","Experience":"5-10 Yrs","Job Title":"Urgently Hiring For JavaScript + Selenium Automation Tester","Expectation":"Key Skills: Strong experience in JavaScript\/ TypeScript programming and Developing and ...","Location":"Hybrid - Pune, Hyderabad, Ahmedabad"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/8[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 458[\r][\n]"
+ << "ETag: W/"1ca-Ei8ARHmwg48Qr57NBHiCM+Dg5gY"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/8
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 458
+<< ETag: W/"1ca-Ei8ARHmwg48Qr57NBHiCM+Dg5gY"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Typescript,Cypress,Javascript,Selenium,Webdriverio,Bdd Framework,Api Automation,Ui Automation",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "5-10 Yrs",[\n]"
+ << "  "Job Title": "Urgently Hiring For JavaScript + Selenium Automation Tester",[\n]"
+ << "  "Expectation": "Key Skills: Strong experience in JavaScript/ TypeScript programming and Developing and ...",[\n]"
+ << "  "Location": "Hybrid - Pune, Hyderabad, Ahmedabad",[\n]"
+ << "  "id": 8[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3d3a28b5
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 359[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 359
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Java,Automation Testing,Selenium Automation,Bdd Cucumber,Automation,Selenium,Cucumber,Bdd","Company Name":"HCLTech","Salary":"7-14 Lacs PA","Experience":"5-9 Yrs","Job Title":"Selenium Automation Tester","Expectation":"Must have:SeleniumJavaBDD\/CucumberAPI and\/or UI Hands on Automation Testing ExperienceG...","Location":"Hybrid - Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/9[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 397[\r][\n]"
+ << "ETag: W/"18d-rPm/0ioTLN7cYNaCvKBCJWhqKdI"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/9
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 397
+<< ETag: W/"18d-rPm/0ioTLN7cYNaCvKBCJWhqKdI"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Java,Automation Testing,Selenium Automation,Bdd Cucumber,Automation,Selenium,Cucumber,Bdd",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "7-14 Lacs PA",[\n]"
+ << "  "Experience": "5-9 Yrs",[\n]"
+ << "  "Job Title": "Selenium Automation Tester",[\n]"
+ << "  "Expectation": "Must have:SeleniumJavaBDD/CucumberAPI and/or UI Hands on Automation Testing ExperienceG...",[\n]"
+ << "  "Location": "Hybrid - Pune",[\n]"
+ << "  "id": 9[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@306bf4c3
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 379[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 379
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Selenium Testing,API Testing,Automation Testing,Java Selenium,Java,API,Selenium,Automation","Company Name":"HCLTech","Salary":"Not disclosed","Experience":"9-14 Yrs","Job Title":"Excellent Opportunity For Automation Tester","Expectation":"Experience in Shift Left quality engineering aspects. Collaborate with cross-functional...","Location":"Pune, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/10[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 420[\r][\n]"
+ << "ETag: W/"1a4-nnqcoWjFLX5VJGXCdtOiL2EnUPE"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/10
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 420
+<< ETag: W/"1a4-nnqcoWjFLX5VJGXCdtOiL2EnUPE"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Selenium Testing,API Testing,Automation Testing,Java Selenium,Java,API,Selenium,Automation",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "9-14 Yrs",[\n]"
+ << "  "Job Title": "Excellent Opportunity For Automation Tester",[\n]"
+ << "  "Expectation": "Experience in Shift Left quality engineering aspects. Collaborate with cross-functional...",[\n]"
+ << "  "Location": "Pune, Bengaluru",[\n]"
+ << "  "id": 10[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4219a4cc
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 334[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 334
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"selenium,Pyspark,HIVE,Big Data Testing,Snowflake,SQL,Python,Selenium Testing","Company Name":"HCLTech","Salary":"Not disclosed","Experience":"2-3 Yrs","Job Title":"Tester,Selenium","Expectation":"Writing SQLs to test the data and have good understanding of HIVE and snowflake. Build ...","Location":"Pune, kharadi"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/11[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 375[\r][\n]"
+ << "ETag: W/"177-hOwc7Wqs/+xbMfbdcaL9fy6jMeE"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/11
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 375
+<< ETag: W/"177-hOwc7Wqs/+xbMfbdcaL9fy6jMeE"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "selenium,Pyspark,HIVE,Big Data Testing,Snowflake,SQL,Python,Selenium Testing",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "2-3 Yrs",[\n]"
+ << "  "Job Title": "Tester,Selenium",[\n]"
+ << "  "Expectation": "Writing SQLs to test the data and have good understanding of HIVE and snowflake. Build ...",[\n]"
+ << "  "Location": "Pune, kharadi",[\n]"
+ << "  "id": 11[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@17fb5184
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 424[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 424
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Mobile Automation Testing,Automation Testing,Web Automation Testing,QA Automation,Selenium Testing,playright,Selenium Automation,Software","Company Name":"HCLTech","Salary":"Not disclosed","Experience":"4-6 Yrs","Job Title":"Software Automation Test Engineer (4+ yrs)","Expectation":"Certification in software testing (e.g., ISTQB)Minimum of 4 years of experience in soft...","Location":"Pune(Hinjewadi)"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/12[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 465[\r][\n]"
+ << "ETag: W/"1d1-Y6tuZes2QZp3DidirT7imoQEoM8"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/12
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 465
+<< ETag: W/"1d1-Y6tuZes2QZp3DidirT7imoQEoM8"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Mobile Automation Testing,Automation Testing,Web Automation Testing,QA Automation,Selenium Testing,playright,Selenium Automation,Software",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "4-6 Yrs",[\n]"
+ << "  "Job Title": "Software Automation Test Engineer (4+ yrs)",[\n]"
+ << "  "Expectation": "Certification in software testing (e.g., ISTQB)Minimum of 4 years of experience in soft...",[\n]"
+ << "  "Location": "Pune(Hinjewadi)",[\n]"
+ << "  "id": 12[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5eba9e41
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 412[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 412
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Selenium Testing,Automation Testing,Manual Testing,Manual,Selenium,Automation,Software testing,Passport","Company Name":"HCLTech","Salary":"15-16 Lacs PA","Experience":"6-11 Yrs","Job Title":"Automation Test Engineer(Valid Passport Mandatory, Only Immediate)","Expectation":"Profile- Automation Tester Exp- 6 to 9 years Budget- 15 to 16 LPA valid passport(Mandat...","Location":"Pune, Nashik"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/13[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 453[\r][\n]"
+ << "ETag: W/"1c5-zljxp50sxw5vtc1nEYF91+u4fBU"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/13
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 453
+<< ETag: W/"1c5-zljxp50sxw5vtc1nEYF91+u4fBU"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Selenium Testing,Automation Testing,Manual Testing,Manual,Selenium,Automation,Software testing,Passport",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "15-16 Lacs PA",[\n]"
+ << "  "Experience": "6-11 Yrs",[\n]"
+ << "  "Job Title": "Automation Test Engineer(Valid Passport Mandatory, Only Immediate)",[\n]"
+ << "  "Expectation": "Profile- Automation Tester Exp- 6 to 9 years Budget- 15 to 16 LPA valid passport(Mandat...",[\n]"
+ << "  "Location": "Pune, Nashik",[\n]"
+ << "  "id": 13[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@58ad0586
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 389[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 389
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Automation Testing,Selenium Testing,Automation Selenium,Automation,Selenium,Software testing","Company Name":"HCLTech","Salary":"Not disclosed","Experience":"08 Jun","Job Title":"HCLTech||Automation Testing\/Selenium || Walk in || Noida","Expectation":"6 to 24 months of experience in the relevant domain (no internship experience would be ...","Location":"Pune, Noida"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/14[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 429[\r][\n]"
+ << "ETag: W/"1ad-GuTP/Anbq2WR7qpk+RoWy66kZiE"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/14
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 429
+<< ETag: W/"1ad-GuTP/Anbq2WR7qpk+RoWy66kZiE"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Automation Testing,Selenium Testing,Automation Selenium,Automation,Selenium,Software testing",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "08 Jun",[\n]"
+ << "  "Job Title": "HCLTech||Automation Testing/Selenium || Walk in || Noida",[\n]"
+ << "  "Expectation": "6 to 24 months of experience in the relevant domain (no internship experience would be ...",[\n]"
+ << "  "Location": "Pune, Noida",[\n]"
+ << "  "id": 14[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7adbec34
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 403[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 403
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"API Testing,Automation Testing,Rest Assured,Appium,Selenium,Cucumber,Software testing,Automation","Company Name":"HCLTech","Salary":"Not disclosed","Experience":"5-10 Yrs","Job Title":"Automation Test Engineer - Only May Joiners","Expectation":"Must have knowledge of developing automated tests suite for API an Web based applicatio...","Location":"Hybrid - Pune, Chennai, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/15[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 444[\r][\n]"
+ << "ETag: W/"1bc-pzSW6+kj/eJPFDz/WqYT0g61Djg"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/15
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 444
+<< ETag: W/"1bc-pzSW6+kj/eJPFDz/WqYT0g61Djg"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "API Testing,Automation Testing,Rest Assured,Appium,Selenium,Cucumber,Software testing,Automation",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "5-10 Yrs",[\n]"
+ << "  "Job Title": "Automation Test Engineer - Only May Joiners",[\n]"
+ << "  "Expectation": "Must have knowledge of developing automated tests suite for API an Web based applicatio...",[\n]"
+ << "  "Location": "Hybrid - Pune, Chennai, Bengaluru",[\n]"
+ << "  "id": 15[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@49338f3
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 399[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 399
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Rest Assured,Selenium RC,Selenium Testing,Selenium Webdriver,Selenium With Java,Automation Testing,Webdriver,Selenium IDE","Company Name":"HCLTech","Salary":"Not disclosed","Experience":"1-3 Yrs","Job Title":"Automation Test Engineer","Expectation":"Test Automation skills on any tool required. must be experienced with Java, APIs, . Any...","Location":"Hybrid - Pune(Hinjewadi)"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/16[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 440[\r][\n]"
+ << "ETag: W/"1b8-ejw73M6dS36JLw+No/JyhaKhQy8"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/16
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 440
+<< ETag: W/"1b8-ejw73M6dS36JLw+No/JyhaKhQy8"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Rest Assured,Selenium RC,Selenium Testing,Selenium Webdriver,Selenium With Java,Automation Testing,Webdriver,Selenium IDE",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "1-3 Yrs",[\n]"
+ << "  "Job Title": "Automation Test Engineer",[\n]"
+ << "  "Expectation": "Test Automation skills on any tool required. must be experienced with Java, APIs, . Any...",[\n]"
+ << "  "Location": "Hybrid - Pune(Hinjewadi)",[\n]"
+ << "  "id": 16[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@69a3bf40
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 425[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 425
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"NUnit,Automation,Coding,Test design,API Testing,Agile,Selenium,Server architecture","Company Name":"HCLTech","Salary":"Not disclosed","Experience":"2-5 Yrs","Job Title":"Selenium Testing Engineer","Expectation":"Must have minimum 1 of these in the order of preference . Good experience about softwar...","Location":"Pune, Kolkata, Mumbai, New Delhi, Hyderabad\/Secunderabad, Chennai, Bangalore\/Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/17[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 464[\r][\n]"
+ << "ETag: W/"1d0-mVrSgyqoi0p6IPXUD2x+1KzcjLc"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/17
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 464
+<< ETag: W/"1d0-mVrSgyqoi0p6IPXUD2x+1KzcjLc"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "NUnit,Automation,Coding,Test design,API Testing,Agile,Selenium,Server architecture",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "2-5 Yrs",[\n]"
+ << "  "Job Title": "Selenium Testing Engineer",[\n]"
+ << "  "Expectation": "Must have minimum 1 of these in the order of preference . Good experience about softwar...",[\n]"
+ << "  "Location": "Pune, Kolkata, Mumbai, New Delhi, Hyderabad/Secunderabad, Chennai, Bangalore/Bengaluru",[\n]"
+ << "  "id": 17[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4a773f08
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 413[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 413
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Rest Assured,Automation Testing,Selenium Automation Testing,Bdd,Selenium Testing,cucumber,Selenium Automation,Rest Api Automation","Company Name":"HCLTech","Salary":"Not disclosed","Experience":"4-8 Yrs","Job Title":"Automation Tester","Expectation":"Experience Required :5 to 8 yrs . Work Location : Gurgaon \/ Chennai\/Pune \/ Kochi\/Indore...","Location":"Hybrid - Pune, Chennai, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/18[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 450[\r][\n]"
+ << "ETag: W/"1c2-u/tNL/yA6X0I6e8J3vxYysHO0P0"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/18
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 450
+<< ETag: W/"1c2-u/tNL/yA6X0I6e8J3vxYysHO0P0"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Rest Assured,Automation Testing,Selenium Automation Testing,Bdd,Selenium Testing,cucumber,Selenium Automation,Rest Api Automation",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "4-8 Yrs",[\n]"
+ << "  "Job Title": "Automation Tester",[\n]"
+ << "  "Expectation": "Experience Required :5 to 8 yrs . Work Location : Gurgaon / Chennai/Pune / Kochi/Indore...",[\n]"
+ << "  "Location": "Hybrid - Pune, Chennai, Bengaluru",[\n]"
+ << "  "id": 18[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5bb3dee7
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 345[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 345
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"software testing,git,selenium,testing methodologies,testng,quality process,python,junit","Company Name":"HCLTech","Salary":"Not disclosed","Experience":"3-8 Yrs","Job Title":"Test Automation Engineer","Expectation":"Evolve more predictive and intelligent testing approaches based on automation and innov...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/19[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 386[\r][\n]"
+ << "ETag: W/"182-/fQsRTVNkLNfSPW+hbYY6Lb9m2o"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/19
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 386
+<< ETag: W/"182-/fQsRTVNkLNfSPW+hbYY6Lb9m2o"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "software testing,git,selenium,testing methodologies,testng,quality process,python,junit",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "3-8 Yrs",[\n]"
+ << "  "Job Title": "Test Automation Engineer",[\n]"
+ << "  "Expectation": "Evolve more predictive and intelligent testing approaches based on automation and innov...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 19[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@346330b6
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 361[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 361
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"software testing,quality engineering,selenium,webdriver,testing methodologies,tosca,quality process,uft","Company Name":"HCLTech","Salary":"Not disclosed","Experience":"3-5 Yrs","Job Title":"Test Automation Engineer","Expectation":"Project Role :Test Automation EngineerProject Role Description :Transform testing into ...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/20[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 402[\r][\n]"
+ << "ETag: W/"192-gnH8lxQE8f7G8yllXVBhrytjzCM"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:04 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/20
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 402
+<< ETag: W/"192-gnH8lxQE8f7G8yllXVBhrytjzCM"
+<< Date: Tue, 04 Jun 2024 13:32:04 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "software testing,quality engineering,selenium,webdriver,testing methodologies,tosca,quality process,uft",[\n]"
+ << "  "Company Name": "HCLTech",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "3-5 Yrs",[\n]"
+ << "  "Job Title": "Test Automation Engineer",[\n]"
+ << "  "Expectation": "Project Role :Test Automation EngineerProject Role Description :Transform testing into ...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 20[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@52325940
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 369[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 369
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"automation framework,Automation,VB SCRIPT,Test management,Test execution,Windows,Test cases,WPF","Company Name":"Coders Brain Pvt Ltd","Salary":"Not disclosed","Experience":"4-6 Yrs","Job Title":"UFT Automation Professional","Expectation":"Continuous testing experience with automation testing using Azure DevOps or similar too...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/21[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 410[\r][\n]"
+ << "ETag: W/"19a-I2LHbFNCYRlEZrgDklKA2OLVluA"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:05 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/21
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 410
+<< ETag: W/"19a-I2LHbFNCYRlEZrgDklKA2OLVluA"
+<< Date: Tue, 04 Jun 2024 13:32:05 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "automation framework,Automation,VB SCRIPT,Test management,Test execution,Windows,Test cases,WPF",[\n]"
+ << "  "Company Name": "Coders Brain Pvt Ltd",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "4-6 Yrs",[\n]"
+ << "  "Job Title": "UFT Automation Professional",[\n]"
+ << "  "Expectation": "Continuous testing experience with automation testing using Azure DevOps or similar too...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 21[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@254cc548
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 455[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 455
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Uft Automation,Azure Devops,Automation,Microsoft Azure,Uft,Devops,Automation engineering","Company Name":"Coders Brain Pvt Ltd","Salary":"15-25 Lacs PA","Experience":"7-12 Yrs","Job Title":"Job ||UFT Automation Engineer (Immediate joiner)|| MNC","Expectation":"Exp with Azure DevOps (User Stories, Test cases, Defects, and reports) 5+ years develop...","Location":"Pune, Hyderabad, Chennai, Bengaluru, Delhi \/ NCR, Mumbai (All Areas)"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/22[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 495[\r][\n]"
+ << "ETag: W/"1ef-I4jyV0ZYNnjqdaf1pOl8fDA7Yyw"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:05 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/22
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 495
+<< ETag: W/"1ef-I4jyV0ZYNnjqdaf1pOl8fDA7Yyw"
+<< Date: Tue, 04 Jun 2024 13:32:05 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Uft Automation,Azure Devops,Automation,Microsoft Azure,Uft,Devops,Automation engineering",[\n]"
+ << "  "Company Name": "Coders Brain Pvt Ltd",[\n]"
+ << "  "Salary": "15-25 Lacs PA",[\n]"
+ << "  "Experience": "7-12 Yrs",[\n]"
+ << "  "Job Title": "Job ||UFT Automation Engineer (Immediate joiner)|| MNC",[\n]"
+ << "  "Expectation": "Exp with Azure DevOps (User Stories, Test cases, Defects, and reports) 5+ years develop...",[\n]"
+ << "  "Location": "Pune, Hyderabad, Chennai, Bengaluru, Delhi / NCR, Mumbai (All Areas)",[\n]"
+ << "  "id": 22[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3487947c
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 347[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 347
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Client handling,Automation,Manual testing,Agile,Manual,Client,Handling,Software testing","Company Name":"Coders Brain Pvt Ltd","Salary":"Not disclosed","Experience":"6-8 Yrs","Job Title":"Manual Tester","Expectation":"good manual testing concepts Proficiency in working in Agile environment is a must Over...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/23[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 388[\r][\n]"
+ << "ETag: W/"184-J27CEXmcJW9ZUkq9g+PZiIGMGMo"[\r][\n]"
+ << "Date: Tue, 04 Jun 2024 13:32:05 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/23
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 388
+<< ETag: W/"184-J27CEXmcJW9ZUkq9g+PZiIGMGMo"
+<< Date: Tue, 04 Jun 2024 13:32:05 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Client handling,Automation,Manual testing,Agile,Manual,Client,Handling,Software testing",[\n]"
+ << "  "Company Name": "Coders Brain Pvt Ltd",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "6-8 Yrs",[\n]"
+ << "  "Job Title": "Manual Tester",[\n]"
+ << "  "Expectation": "good manual testing concepts Proficiency in working in Agile environment is a must Over...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 23[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@760c777d
+Connection can be kept alive for 5000 MILLISECONDS
+Test Success : TC_004_Run
+After Test : Driver Quit and Log Manager ShutDown
+Execution Ends 2024-06-04T19:02:05.479745
+Connection 0.0.0.0:60045<->127.0.0.1:3000 closed
+System Exit
+Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+"spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+Loading template for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+Connection 0.0.0.0:60057<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60067<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60066<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60065<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60064<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60063<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60062<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60061<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60060<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60059<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60058<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60056<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60055<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60054<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60053<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60052<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60051<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60050<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60049<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60048<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60047<->127.0.0.1:3000 closed
+Connection 0.0.0.0:60046<->127.0.0.1:3000 closed
+Config VBS File Read Successfully
+Before Test : All Folders Created And Logger
+Test Start : TC_001_Run
+Input Jobs Read Successfully
+Test Success : TC_001_Run
+Test Start : TC_002_Run
+Website nakridotcom launched successfully
+Job Search For : uft automation Pune
+Job Results For uft automation Pune
+Test Success : TC_002_Run
+Test Start : TC_002_Run
+Website nakridotcom launched successfully
+Job Search For : insurance Mumbai
+Job Results For insurance Mumbai
+Test Success : TC_002_Run
+Test Start : TC_002_Run
+Website nakridotcom launched successfully
+Job Search For : arts Pune
+Test Failed : TC_002_Run
+Test Start : TC_002_Run
+Website nakridotcom launched successfully
+Job Search For : selenium testing Pune
+Job Results For selenium testing Pune
+Test Failed : TC_002_Run
+Test Start : TC_002_Run
+Website nakridotcom launched successfully
+Job Search For : pharmacist Pune
+Job Results For pharmacist Pune
+Test Failed : TC_002_Run
+Test Start : TC_003_Run
+Test Skipped : TC_003_Run
+Test Start : TC_004_Run
+Test Skipped : TC_004_Run
+After Test : Driver Quit and Log Manager ShutDown
+Execution Ends 2024-06-04T19:05:10.444487500
+System Exit
+Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+"spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+Loading template for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"

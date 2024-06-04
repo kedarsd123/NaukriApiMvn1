@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>TestNG:  EdgeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>EdgeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 04 18:18:41 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>48 seconds (48793 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>regression </td>
+</tr><tr>
+<td>Excluded groups:</td><td>UAT </td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='actionsteps.Driver.TC_001_Run()'><b>TC_001_Run</b><br>Test class: actionsteps.Driver<br/>
+<a href="#Output-1399691256" onClick='toggleBox("Output-1399691256", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1399691256" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1399691256">
+Info --> Test Start : TC_001_Run<br/>
+Passed --> Input Jobs Read Successfully<br/>
+Passed --> Test Success : TC_001_Run<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>actionsteps.Driver@6150c3ec</td></tr>
+<tr>
+<td title='actionsteps.Driver.TC_002_Run()'><b>TC_002_Run</b><br>Test class: actionsteps.Driver<br>Parameters: uft automation, Pune<br/>
+<a href="#Output-541769471" onClick='toggleBox("Output-541769471", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-541769471" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-541769471">
+Info --> Test Start : TC_002_Run<br/>
+Passed --> Website nakridotcom launched successfully<br/>
+Info --> Job Search For : uft automation Pune<br/>
+Info --> Job Results For uft automation Pune<br/>
+Passed --> Test Success : TC_002_Run<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>actionsteps.Driver@6150c3ec</td></tr>
+<tr>
+<td title='actionsteps.Driver.TC_002_Run()'><b>TC_002_Run</b><br>Test class: actionsteps.Driver<br>Parameters: selenium testing, Pune<br/>
+<a href="#Output-1681318273" onClick='toggleBox("Output-1681318273", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1681318273" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1681318273">
+Info --> Test Start : TC_002_Run<br/>
+Passed --> Website nakridotcom launched successfully<br/>
+Info --> Job Search For : selenium testing Pune<br/>
+Info --> Job Results For selenium testing Pune<br/>
+Passed --> Test Success : TC_002_Run<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>actionsteps.Driver@6150c3ec</td></tr>
+<tr>
+<td title='actionsteps.Driver.TC_003_Run()'><b>TC_003_Run</b><br>Test class: actionsteps.Driver<br/>
+<a href="#Output-1713589007" onClick='toggleBox("Output-1713589007", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1713589007" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1713589007">
+Info --> Test Start : TC_003_Run<br/>
+Passed --> Job Results Exported To Excel<br/>
+Info --> Summary Report Format Successfull<br/>
+Info --> Saving JobReportSummary by local date format<br/>
+Info --> Saved To E:\SeleniumProjects\NaukriApiMvn1\Automation\TestReport\JobSummaryReport_04-06-2024 18_18_41.xlsx<br/>
+Passed --> Test Success : TC_003_Run<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>actionsteps.Driver@6150c3ec</td></tr>
+<tr>
+<td title='actionsteps.Driver.TC_004_Run()'><b>TC_004_Run</b><br>Test class: actionsteps.Driver<br/>
+<a href="#Output-1370456137" onClick='toggleBox("Output-1370456137", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1370456137" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1370456137">
+Info --> Test Start : TC_004_Run<br/>
+Passed --> Test Success : TC_004_Run<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>actionsteps.Driver@6150c3ec</td></tr>
+</table><p>
+</body>
+</html>

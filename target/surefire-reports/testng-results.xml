@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="3" failed="3" skipped="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Info --> Config VBS File Read Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Before Test : All Folders Created And Logger]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Test Start : TC_001_Run]]>
+    </line>
+    <line>
+      <![CDATA[Passed --> Input Jobs Read Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Passed --> Test Success : TC_001_Run]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Test Start : TC_002_Run]]>
+    </line>
+    <line>
+      <![CDATA[Passed --> Website nakridotcom launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Job Search For : uft automation Pune]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Job Results For uft automation Pune]]>
+    </line>
+    <line>
+      <![CDATA[Passed --> Test Success : TC_002_Run]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Test Start : TC_002_Run]]>
+    </line>
+    <line>
+      <![CDATA[Passed --> Website nakridotcom launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Job Search For : insurance Mumbai]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Job Results For insurance Mumbai]]>
+    </line>
+    <line>
+      <![CDATA[Passed --> Test Success : TC_002_Run]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Test Start : TC_002_Run]]>
+    </line>
+    <line>
+      <![CDATA[Passed --> Website nakridotcom launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Job Search For : arts Pune]]>
+    </line>
+    <line>
+      <![CDATA[Failed --> Test Failed : TC_002_Run]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Test Start : TC_002_Run]]>
+    </line>
+    <line>
+      <![CDATA[Passed --> Website nakridotcom launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Job Search For : selenium testing Pune]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Job Results For selenium testing Pune]]>
+    </line>
+    <line>
+      <![CDATA[Failed --> Test Failed : TC_002_Run]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Test Start : TC_002_Run]]>
+    </line>
+    <line>
+      <![CDATA[Passed --> Website nakridotcom launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Job Search For : pharmacist Pune]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Job Results For pharmacist Pune]]>
+    </line>
+    <line>
+      <![CDATA[Failed --> Test Failed : TC_002_Run]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Test Start : TC_003_Run]]>
+    </line>
+    <line>
+      <![CDATA[Warning --> Test Skipped : TC_003_Run]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Test Start : TC_004_Run]]>
+    </line>
+    <line>
+      <![CDATA[Warning --> Test Skipped : TC_004_Run]]>
+    </line>
+    <line>
+      <![CDATA[Info --> After Test : Driver Quit and Log Manager ShutDown]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Execution Ends 2024-06-04T19:05:10.444487500]]>
+    </line>
+    <line>
+      <![CDATA[Info --> System Exit]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-06-04T19:03:20 IST" name="Suite" finished-at="2024-06-04T19:05:12 IST" duration-ms="112688">
+    <groups>
+      <group name="regression">
+        <method signature="Driver.TC_001_Run()[pri:1, instance:actionsteps.Driver@10aa41f2]" name="TC_001_Run" class="actionsteps.Driver"/>
+        <method signature="Driver.TC_002_Run(java.lang.String,java.lang.String)[pri:2, instance:actionsteps.Driver@10aa41f2]" name="TC_002_Run" class="actionsteps.Driver"/>
+        <method signature="Driver.TC_003_Run()[pri:3, instance:actionsteps.Driver@10aa41f2]" name="TC_003_Run" class="actionsteps.Driver"/>
+        <method signature="Driver.TC_004_Run()[pri:4, instance:actionsteps.Driver@10aa41f2]" name="TC_004_Run" class="actionsteps.Driver"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="Driver.TC_001_Run()[pri:1, instance:actionsteps.Driver@10aa41f2]" name="TC_001_Run" class="actionsteps.Driver"/>
+        <method signature="Driver.TC_002_Run(java.lang.String,java.lang.String)[pri:2, instance:actionsteps.Driver@10aa41f2]" name="TC_002_Run" class="actionsteps.Driver"/>
+        <method signature="Driver.TC_003_Run()[pri:3, instance:actionsteps.Driver@10aa41f2]" name="TC_003_Run" class="actionsteps.Driver"/>
+        <method signature="Driver.TC_004_Run()[pri:4, instance:actionsteps.Driver@10aa41f2]" name="TC_004_Run" class="actionsteps.Driver"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-06-04T19:03:20 IST" name="EdgeTest" finished-at="2024-06-04T19:05:12 IST" duration-ms="112688">
+      <class name="actionsteps.Driver">
+        <test-method is-config="true" signature="TestPreconditions(java.lang.String,java.lang.String)[pri:0, instance:actionsteps.Driver@10aa41f2]" started-at="2024-06-04T19:03:20 IST" name="TestPreconditions" finished-at="2024-06-04T19:03:24 IST" duration-ms="3754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Info --> Config VBS File Read Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Before Test : All Folders Created And Logger]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestPreconditions -->
+        <test-method signature="TC_001_Run()[pri:1, instance:actionsteps.Driver@10aa41f2]" started-at="2024-06-04T19:03:24 IST" name="TC_001_Run" finished-at="2024-06-04T19:03:24 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Info --> Test Start : TC_001_Run]]>
+            </line>
+            <line>
+              <![CDATA[Passed --> Input Jobs Read Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Passed --> Test Success : TC_001_Run]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_001_Run -->
+        <test-method signature="TC_002_Run(java.lang.String,java.lang.String)[pri:2, instance:actionsteps.Driver@10aa41f2]" started-at="2024-06-04T19:03:24 IST" name="TC_002_Run" data-provider="JobLocationDP" finished-at="2024-06-04T19:03:30 IST" depends-on-methods="actionsteps.Driver.TC_001_Run" duration-ms="6214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uft automation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Info --> Test Start : TC_002_Run]]>
+            </line>
+            <line>
+              <![CDATA[Passed --> Website nakridotcom launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Job Search For : uft automation Pune]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Job Results For uft automation Pune]]>
+            </line>
+            <line>
+              <![CDATA[Passed --> Test Success : TC_002_Run]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_002_Run -->
+        <test-method signature="TC_002_Run(java.lang.String,java.lang.String)[pri:2, instance:actionsteps.Driver@10aa41f2]" started-at="2024-06-04T19:03:31 IST" name="TC_002_Run" data-provider="JobLocationDP" finished-at="2024-06-04T19:03:40 IST" depends-on-methods="actionsteps.Driver.TC_001_Run" duration-ms="9753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[insurance]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Info --> Test Start : TC_002_Run]]>
+            </line>
+            <line>
+              <![CDATA[Passed --> Website nakridotcom launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Job Search For : insurance Mumbai]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Job Results For insurance Mumbai]]>
+            </line>
+            <line>
+              <![CDATA[Passed --> Test Success : TC_002_Run]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_002_Run -->
+        <test-method signature="TC_002_Run(java.lang.String,java.lang.String)[pri:2, instance:actionsteps.Driver@10aa41f2]" started-at="2024-06-04T19:03:40 IST" name="TC_002_Run" data-provider="JobLocationDP" finished-at="2024-06-04T19:04:47 IST" depends-on-methods="actionsteps.Driver.TC_001_Run" duration-ms="66816" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"span[class='job-desc ni-job-tuple-icon ni-job-tuple-icon-srp-description']"}
+  (Session info: MicrosoftEdge=125.0.2535.79)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a94dde88afe36f314693c7d17f4ef1e1, findChildElement {using=css selector, value=span[class='job-desc ni-job-tuple-icon ni-job-tuple-icon-srp-description'], id=f.7C672F4DCDF765CC7D765ABB100A481A.d.F0E95CEEBFFB4C9EC8971CE24232BFF0.e.624}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60238}, msedge: {msedgedriverVersion: 125.0.2535.79 (7e3dd970e483..., userDataDir: C:\Users\KEDARD~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60238/devtoo..., se:cdpVersion: 125.0.2535.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a94dde88afe36f314693c7d17f4ef1e1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"span[class='job-desc ni-job-tuple-icon ni-job-tuple-icon-srp-description']"}
+  (Session info: MicrosoftEdge=125.0.2535.79)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a94dde88afe36f314693c7d17f4ef1e1, findChildElement {using=css selector, value=span[class='job-desc ni-job-tuple-icon ni-job-tuple-icon-srp-description'], id=f.7C672F4DCDF765CC7D765ABB100A481A.d.F0E95CEEBFFB4C9EC8971CE24232BFF0.e.624}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60238}, msedge: {msedgedriverVersion: 125.0.2535.79 (7e3dd970e483..., userDataDir: C:\Users\KEDARD~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60238/devtoo..., se:cdpVersion: 125.0.2535.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a94dde88afe36f314693c7d17f4ef1e1
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:211)
+at testcases.TC_002.Launch_NDC_SearchJobs(TC_002.java:56)
+at actionsteps.Driver.TC_002_Run(Driver.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Info --> Test Start : TC_002_Run]]>
+            </line>
+            <line>
+              <![CDATA[Passed --> Website nakridotcom launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Job Search For : arts Pune]]>
+            </line>
+            <line>
+              <![CDATA[Failed --> Test Failed : TC_002_Run]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_002_Run -->
+        <test-method signature="TC_002_Run(java.lang.String,java.lang.String)[pri:2, instance:actionsteps.Driver@10aa41f2]" started-at="2024-06-04T19:04:47 IST" name="TC_002_Run" data-provider="JobLocationDP" finished-at="2024-06-04T19:04:59 IST" depends-on-methods="actionsteps.Driver.TC_001_Run" duration-ms="11351" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium testing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at reusables.GlobalFunctions.FlushAssert(GlobalFunctions.java:353)
+at testcases.TC_002.Launch_NDC_SearchJobs(TC_002.java:105)
+at actionsteps.Driver.TC_002_Run(Driver.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Info --> Test Start : TC_002_Run]]>
+            </line>
+            <line>
+              <![CDATA[Passed --> Website nakridotcom launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Job Search For : selenium testing Pune]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Job Results For selenium testing Pune]]>
+            </line>
+            <line>
+              <![CDATA[Failed --> Test Failed : TC_002_Run]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_002_Run -->
+        <test-method signature="TC_002_Run(java.lang.String,java.lang.String)[pri:2, instance:actionsteps.Driver@10aa41f2]" started-at="2024-06-04T19:04:59 IST" name="TC_002_Run" data-provider="JobLocationDP" finished-at="2024-06-04T19:05:09 IST" depends-on-methods="actionsteps.Driver.TC_001_Run" duration-ms="9746" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pharmacist]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at reusables.GlobalFunctions.FlushAssert(GlobalFunctions.java:353)
+at testcases.TC_002.Launch_NDC_SearchJobs(TC_002.java:105)
+at actionsteps.Driver.TC_002_Run(Driver.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Info --> Test Start : TC_002_Run]]>
+            </line>
+            <line>
+              <![CDATA[Passed --> Website nakridotcom launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Job Search For : pharmacist Pune]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Job Results For pharmacist Pune]]>
+            </line>
+            <line>
+              <![CDATA[Failed --> Test Failed : TC_002_Run]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_002_Run -->
+        <test-method signature="TC_003_Run()[pri:3, instance:actionsteps.Driver@10aa41f2]" started-at="2024-06-04T19:05:09 IST" name="TC_003_Run" finished-at="2024-06-04T19:05:09 IST" depends-on-methods="actionsteps.Driver.TC_001_Run, actionsteps.Driver.TC_002_Run" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method actionsteps.Driver.TC_003_Run() on instance actionsteps.Driver@10aa41f2 depends on not successfully finished methods 
+[actionsteps.Driver.TC_001_Run() on instance actionsteps.Driver@10aa41f2
+actionsteps.Driver.TC_002_Run() on instance actionsteps.Driver@10aa41f2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method actionsteps.Driver.TC_003_Run() on instance actionsteps.Driver@10aa41f2 depends on not successfully finished methods 
+[actionsteps.Driver.TC_001_Run() on instance actionsteps.Driver@10aa41f2
+actionsteps.Driver.TC_002_Run() on instance actionsteps.Driver@10aa41f2]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+            <line>
+              <![CDATA[Warning --> Test Skipped : TC_003_Run]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Test Start : TC_004_Run]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_003_Run -->
+        <test-method signature="TC_004_Run()[pri:4, instance:actionsteps.Driver@10aa41f2]" started-at="2024-06-04T19:05:09 IST" name="TC_004_Run" finished-at="2024-06-04T19:05:09 IST" depends-on-methods="actionsteps.Driver.TC_001_Run, actionsteps.Driver.TC_002_Run, actionsteps.Driver.TC_003_Run" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method actionsteps.Driver.TC_004_Run() on instance actionsteps.Driver@10aa41f2 depends on not successfully finished methods 
+[actionsteps.Driver.TC_001_Run() on instance actionsteps.Driver@10aa41f2
+actionsteps.Driver.TC_002_Run() on instance actionsteps.Driver@10aa41f2
+actionsteps.Driver.TC_003_Run() on instance actionsteps.Driver@10aa41f2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method actionsteps.Driver.TC_004_Run() on instance actionsteps.Driver@10aa41f2 depends on not successfully finished methods 
+[actionsteps.Driver.TC_001_Run() on instance actionsteps.Driver@10aa41f2
+actionsteps.Driver.TC_002_Run() on instance actionsteps.Driver@10aa41f2
+actionsteps.Driver.TC_003_Run() on instance actionsteps.Driver@10aa41f2]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+            <line>
+              <![CDATA[Warning --> Test Skipped : TC_004_Run]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_004_Run -->
+        <test-method is-config="true" signature="TestPostConditions()[pri:0, instance:actionsteps.Driver@10aa41f2]" started-at="2024-06-04T19:05:10 IST" name="TestPostConditions" finished-at="2024-06-04T19:05:12 IST" duration-ms="2695" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Info --> After Test : Driver Quit and Log Manager ShutDown]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Execution Ends 2024-06-04T19:05:10.444487500]]>
+            </line>
+            <line>
+              <![CDATA[Info --> System Exit]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestPostConditions -->
+      </class> <!-- actionsteps.Driver -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
