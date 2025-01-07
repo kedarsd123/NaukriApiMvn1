@@ -1,0 +1,3599 @@
+Config VBS File Read Successfully
+Before Test : All Folders Created And Logger
+Test Start : TC_001_Run
+Input Jobs Read Successfully
+Test Success : TC_001_Run
+Test Start : TC_002_Run
+Website nakridotcom launched successfully
+Job Search For : uft automation Pune
+Job Results For uft automation Pune
+Test Success : TC_002_Run
+Test Start : TC_002_Run
+Website nakridotcom launched successfully
+Job Search For : selenium testing Pune
+Job Results For selenium testing Pune
+Test Success : TC_002_Run
+Test Start : TC_002_Run
+Website nakridotcom launched successfully
+Job Search For : pharmacist Pune
+Job Results For pharmacist Pune
+Test Success : TC_002_Run
+Test Start : TC_003_Run
+Job Results Exported To Excel
+Summary Report Format Successfull
+Saving JobReportSummary by local date format
+Saved To E:\SeleniumProjects\NaukriApiMvn1\Automation\TestReport\JobSummaryReport_07-01-2025 19_42_31.xlsx
+Test Success : TC_003_Run
+Test Start : TC_004_Run
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 364[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 364
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Retail Sales,Pharmacy,Counter Sales,Retail,Pharmaceutical,Store Operation,Stores,Operations","Company Name":"Saijyot Generic Medical","Salary":"50,000-1.25 Lacs PA","Experience":"0-2 Yrs","Job Title":"Retail Pharmacist","Expectation":"Registered pharmacist with D Pharm or B Pharm degree; quick learner with computer knowl...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/1[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 404[\r][\n]"
+ << "ETag: W/"194-cwrrJYkeA/yM3SIpXDyxBOT89Ac"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:13:40 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/1
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 404
+<< ETag: W/"194-cwrrJYkeA/yM3SIpXDyxBOT89Ac"
+<< Date: Tue, 07 Jan 2025 14:13:40 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Retail Sales,Pharmacy,Counter Sales,Retail,Pharmaceutical,Store Operation,Stores,Operations",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "50,000-1.25 Lacs PA",[\n]"
+ << "  "Experience": "0-2 Yrs",[\n]"
+ << "  "Job Title": "Retail Pharmacist",[\n]"
+ << "  "Expectation": "Registered pharmacist with D Pharm or B Pharm degree; quick learner with computer knowl...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 1[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4a3404fa
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 453[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 453
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"business central,side,pharmaceutical,erp,nav,microsoft dynamics navision,microsoft dynamics,medicine","Company Name":"Saijyot Generic Medical","Salary":"Not disclosed","Experience":"0-2 Yrs","Job Title":"Junior Pharmacist.Pharmacy.Aster MIMS Kannur","Expectation":"Correctly dispense prescription medications, ensuring accuracy and compliance with stat...","Location":"Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/2[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 493[\r][\n]"
+ << "ETag: W/"1ed-gXUlI0TfRIBrfIB31urcr9Ukbf8"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:13:42 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/2
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 493
+<< ETag: W/"1ed-gXUlI0TfRIBrfIB31urcr9Ukbf8"
+<< Date: Tue, 07 Jan 2025 14:13:42 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "business central,side,pharmaceutical,erp,nav,microsoft dynamics navision,microsoft dynamics,medicine",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "0-2 Yrs",[\n]"
+ << "  "Job Title": "Junior Pharmacist.Pharmacy.Aster MIMS Kannur",[\n]"
+ << "  "Expectation": "Correctly dispense prescription medications, ensuring accuracy and compliance with stat...",[\n]"
+ << "  "Location": "Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru",[\n]"
+ << "  "id": 2[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1bed61d2
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 453[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 453
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"business central,side,pharmaceutical,erp,nav,microsoft dynamics navision,microsoft dynamics,medicine","Company Name":"Saijyot Generic Medical","Salary":"Not disclosed","Experience":"0-2 Yrs","Job Title":"Junior Pharmacist.Pharmacy.Aster MIMS Kannur","Expectation":"Correctly dispense prescription medications, ensuring accuracy and compliance with stat...","Location":"Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/3[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 493[\r][\n]"
+ << "ETag: W/"1ed-0RoVA3uValenqJ1zJGoVwH/1REE"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:13:44 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/3
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 493
+<< ETag: W/"1ed-0RoVA3uValenqJ1zJGoVwH/1REE"
+<< Date: Tue, 07 Jan 2025 14:13:44 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "business central,side,pharmaceutical,erp,nav,microsoft dynamics navision,microsoft dynamics,medicine",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "0-2 Yrs",[\n]"
+ << "  "Job Title": "Junior Pharmacist.Pharmacy.Aster MIMS Kannur",[\n]"
+ << "  "Expectation": "Correctly dispense prescription medications, ensuring accuracy and compliance with stat...",[\n]"
+ << "  "Location": "Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru",[\n]"
+ << "  "id": 3[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3e7ddb7e
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 346[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 346
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Pharmacy,Pharmacist","Company Name":"Saijyot Generic Medical","Salary":"Not disclosed","Experience":"0-3 Yrs","Job Title":"Pharmacist.Pharmacy","Expectation":"Reviewing and interpreting prescription ordersPreparing and dispensing medicationsAdvi...","Location":"Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/4[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 386[\r][\n]"
+ << "ETag: W/"182-hs/mkCB+HgNnQPAQTlnsk0lzNU8"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:13:46 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/4
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 386
+<< ETag: W/"182-hs/mkCB+HgNnQPAQTlnsk0lzNU8"
+<< Date: Tue, 07 Jan 2025 14:13:46 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Pharmacy,Pharmacist",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "0-3 Yrs",[\n]"
+ << "  "Job Title": "Pharmacist.Pharmacy",[\n]"
+ << "  "Expectation": "Reviewing and interpreting prescription ordersPreparing and dispensing medicationsAdvi...",[\n]"
+ << "  "Location": "Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru",[\n]"
+ << "  "id": 4[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@53654b2d
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 351[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 351
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"pharmaceutical,side,pharmaceutics,c,quality control,production,purchase,medicine","Company Name":"Saijyot Generic Medical","Salary":"Not disclosed","Experience":"0-3 Yrs","Job Title":"JR TRAINEE PHARMACIST","Expectation":"Deenanath Mangeshkar Hospital is looking for JR TRAINEE PHARMACIST to join our dynamic ...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/5[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 391[\r][\n]"
+ << "ETag: W/"187-oY5BBfUXRpbxVSWVWi6fvoUYNOk"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:13:48 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/5
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 391
+<< ETag: W/"187-oY5BBfUXRpbxVSWVWi6fvoUYNOk"
+<< Date: Tue, 07 Jan 2025 14:13:48 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "pharmaceutical,side,pharmaceutics,c,quality control,production,purchase,medicine",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "0-3 Yrs",[\n]"
+ << "  "Job Title": "JR TRAINEE PHARMACIST",[\n]"
+ << "  "Expectation": "Deenanath Mangeshkar Hospital is looking for JR TRAINEE PHARMACIST to join our dynamic ...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 5[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3efd3302
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 382[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 382
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"SIDE,Usage,Pharmacy,Healthcare,Pharmacology,Monitoring","Company Name":"Saijyot Generic Medical","Salary":"Not disclosed","Experience":"0-3 Yrs","Job Title":"Pharmacist - Pharmacy","Expectation":"Aster Medcity is looking for Pharmacist - Pharmacy to join our dynamic team and embar...","Location":"Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/6[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 422[\r][\n]"
+ << "ETag: W/"1a6-jFj333VUAHwoYZ1rD3V22S+eswo"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:13:51 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/6
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 422
+<< ETag: W/"1a6-jFj333VUAHwoYZ1rD3V22S+eswo"
+<< Date: Tue, 07 Jan 2025 14:13:51 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "SIDE,Usage,Pharmacy,Healthcare,Pharmacology,Monitoring",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "0-3 Yrs",[\n]"
+ << "  "Job Title": "Pharmacist - Pharmacy",[\n]"
+ << "  "Expectation": "Aster Medcity is looking for Pharmacist - Pharmacy to join our dynamic team and embar...",[\n]"
+ << "  "Location": "Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru",[\n]"
+ << "  "id": 6[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@75882ac2
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 433[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 433
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"SIDE,Quality improvement,Patient care,Clinical trials,Regulatory compliance,Healthcare,Research,Counselling","Company Name":"Saijyot Generic Medical","Salary":"Not disclosed","Experience":"0-3 Yrs","Job Title":"Clinical Pharmacist","Expectation":"Medication Review and Optimization:Review medication orders to ensure appropriateness...","Location":"Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/7[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 473[\r][\n]"
+ << "ETag: W/"1d9-TNUWe+qOkkzJshiHlFU8yy1KftM"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:13:53 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/7
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 473
+<< ETag: W/"1d9-TNUWe+qOkkzJshiHlFU8yy1KftM"
+<< Date: Tue, 07 Jan 2025 14:13:53 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "SIDE,Quality improvement,Patient care,Clinical trials,Regulatory compliance,Healthcare,Research,Counselling",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "0-3 Yrs",[\n]"
+ << "  "Job Title": "Clinical Pharmacist",[\n]"
+ << "  "Expectation": "Medication Review and Optimization:Review medication orders to ensure appropriateness...",[\n]"
+ << "  "Location": "Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru",[\n]"
+ << "  "id": 7[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@408b2ae2
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 332[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 332
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Communication Skills,Pharmacy,Medical","Company Name":"Saijyot Generic Medical","Salary":"1.5-2 Lacs PA","Experience":"1-2 Yrs","Job Title":"Pharmacist For Medical at Dhayari","Expectation":"Pharmacist required for medical shop Location -dhayri pune 1-2 years must have eperienc...","Location":"Pune(Dhayari +1)"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/8[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 372[\r][\n]"
+ << "ETag: W/"174-nqIPJs4+Ru8w9t7Mg1VB5BgDOZ4"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:13:55 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/8
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 372
+<< ETag: W/"174-nqIPJs4+Ru8w9t7Mg1VB5BgDOZ4"
+<< Date: Tue, 07 Jan 2025 14:13:55 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Communication Skills,Pharmacy,Medical",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "1.5-2 Lacs PA",[\n]"
+ << "  "Experience": "1-2 Yrs",[\n]"
+ << "  "Job Title": "Pharmacist For Medical at Dhayari",[\n]"
+ << "  "Expectation": "Pharmacist required for medical shop Location -dhayri pune 1-2 years must have eperienc...",[\n]"
+ << "  "Location": "Pune(Dhayari +1)",[\n]"
+ << "  "id": 8[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7d432bc0
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 369[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 369
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Clinical Pharmacy,Medical,Stock Management,Medical Billing,Management,Stock,Billing,Pharmacy","Company Name":"Saijyot Generic Medical","Salary":"1-2.25 Lacs PA","Experience":"1-3 Yrs","Job Title":"Pharmacist","Expectation":"Reviewing prescriptions Delivering and labeling medications Providing information and a...","Location":"Pune(Karve Nagar +1)"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/9[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 409[\r][\n]"
+ << "ETag: W/"199-RwYVNuMDCWpFDHcTQaZAf3wHw4w"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:13:57 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/9
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 409
+<< ETag: W/"199-RwYVNuMDCWpFDHcTQaZAf3wHw4w"
+<< Date: Tue, 07 Jan 2025 14:13:57 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Clinical Pharmacy,Medical,Stock Management,Medical Billing,Management,Stock,Billing,Pharmacy",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "1-2.25 Lacs PA",[\n]"
+ << "  "Experience": "1-3 Yrs",[\n]"
+ << "  "Job Title": "Pharmacist",[\n]"
+ << "  "Expectation": "Reviewing prescriptions Delivering and labeling medications Providing information and a...",[\n]"
+ << "  "Location": "Pune(Karve Nagar +1)",[\n]"
+ << "  "id": 9[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2ad80cf6
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 332[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 332
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Purchase,Usage,Incharge,Quality testing,Pharmacy,Monitoring,Inventory,Quality","Company Name":"Saijyot Generic Medical","Salary":"Not disclosed","Experience":"0-4 Yrs","Job Title":"Pharmacist","Expectation":"Maintain stock, supplies and inventories of all medicines. Will be responsible for...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/10[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 373[\r][\n]"
+ << "ETag: W/"175-qwD13MjvJzfUeUq2otdHSS2Kncs"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:13:59 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/10
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 373
+<< ETag: W/"175-qwD13MjvJzfUeUq2otdHSS2Kncs"
+<< Date: Tue, 07 Jan 2025 14:13:59 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Purchase,Usage,Incharge,Quality testing,Pharmacy,Monitoring,Inventory,Quality",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "0-4 Yrs",[\n]"
+ << "  "Job Title": "Pharmacist",[\n]"
+ << "  "Expectation": "Maintain stock, supplies and inventories of all medicines. Will be responsible for...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 10[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6067e7c1
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 414[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 414
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"pharmaceutical,side,pharmaceutics,quality control,production,customer service,purchase,medicine","Company Name":"Saijyot Generic Medical","Salary":"Not disclosed","Experience":"0-3 Yrs","Job Title":"Pharmacist","Expectation":"Maintain accurate records of all medication dispensing and patient interactions, as req...","Location":"Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/11[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 455[\r][\n]"
+ << "ETag: W/"1c7-4npsFszKLieHvnt+6cOmJKfJNkU"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:01 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/11
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 455
+<< ETag: W/"1c7-4npsFszKLieHvnt+6cOmJKfJNkU"
+<< Date: Tue, 07 Jan 2025 14:14:01 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "pharmaceutical,side,pharmaceutics,quality control,production,customer service,purchase,medicine",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "0-3 Yrs",[\n]"
+ << "  "Job Title": "Pharmacist",[\n]"
+ << "  "Expectation": "Maintain accurate records of all medication dispensing and patient interactions, as req...",[\n]"
+ << "  "Location": "Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru",[\n]"
+ << "  "id": 11[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@43aa767
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 369[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 369
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Interpersonal skills,Compliance,Pharmacy,Compliance management,Patient care,Healthcare,Management,Counselling","Company Name":"Saijyot Generic Medical","Salary":"Not disclosed","Experience":"1-4 Yrs","Job Title":"Pharmacist","Expectation":"Bachelor s degree in Pharmacy Minimum of 0-1 years of experience in a hospital pharmacy...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/12[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 410[\r][\n]"
+ << "ETag: W/"19a-HHS7k1OSJJKs3bNAbnNqnffbxvo"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:03 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/12
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 410
+<< ETag: W/"19a-HHS7k1OSJJKs3bNAbnNqnffbxvo"
+<< Date: Tue, 07 Jan 2025 14:14:03 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Interpersonal skills,Compliance,Pharmacy,Compliance management,Patient care,Healthcare,Management,Counselling",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "1-4 Yrs",[\n]"
+ << "  "Job Title": "Pharmacist",[\n]"
+ << "  "Expectation": "Bachelor s degree in Pharmacy Minimum of 0-1 years of experience in a hospital pharmacy...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 12[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7ead0b51
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 333[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 333
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Procurement,Team management,Surgical,Sales,Pharma,Pharmacy,Packaging,FMCG","Company Name":"Saijyot Generic Medical","Salary":"Not disclosed","Experience":"0-3 Yrs","Job Title":"Pharmacist","Expectation":"To communicate with doctors for the availability of substitute whenever there is an enq...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/13[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 374[\r][\n]"
+ << "ETag: W/"176-RSMiw3tdMyYpyWUy2tKByUsIKHE"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:05 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/13
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 374
+<< ETag: W/"176-RSMiw3tdMyYpyWUy2tKByUsIKHE"
+<< Date: Tue, 07 Jan 2025 14:14:05 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Procurement,Team management,Surgical,Sales,Pharma,Pharmacy,Packaging,FMCG",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "0-3 Yrs",[\n]"
+ << "  "Job Title": "Pharmacist",[\n]"
+ << "  "Expectation": "To communicate with doctors for the availability of substitute whenever there is an enq...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 13[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6bbb3280
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 272[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 272
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"PDF,Pharmacy","Company Name":"Saijyot Generic Medical","Salary":"Not disclosed","Experience":"2-7 Yrs","Job Title":"PHARMACIST","Expectation":"Pharma Focus is looking for PHARMACIST to join our dynamic team and embark on a rewardi...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/14[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 313[\r][\n]"
+ << "ETag: W/"139-gdzvIf63TUBdy5jZ8O1r5TjGs4A"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:07 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/14
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 313
+<< ETag: W/"139-gdzvIf63TUBdy5jZ8O1r5TjGs4A"
+<< Date: Tue, 07 Jan 2025 14:14:07 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "PDF,Pharmacy",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "2-7 Yrs",[\n]"
+ << "  "Job Title": "PHARMACIST",[\n]"
+ << "  "Expectation": "Pharma Focus is looking for PHARMACIST to join our dynamic team and embark on a rewardi...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 14[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@8942ece
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 272[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 272
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"PDF,Pharmacy","Company Name":"Saijyot Generic Medical","Salary":"Not disclosed","Experience":"1-6 Yrs","Job Title":"Pharmacist","Expectation":"Pharma Focus is looking for Pharmacist to join our dynamic team and embark on a rewardi...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/15[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 313[\r][\n]"
+ << "ETag: W/"139-ksCJikx0YK/5G4IstPQfO4kzOps"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:09 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/15
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 313
+<< ETag: W/"139-ksCJikx0YK/5G4IstPQfO4kzOps"
+<< Date: Tue, 07 Jan 2025 14:14:09 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "PDF,Pharmacy",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "1-6 Yrs",[\n]"
+ << "  "Job Title": "Pharmacist",[\n]"
+ << "  "Expectation": "Pharma Focus is looking for Pharmacist to join our dynamic team and embark on a rewardi...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 15[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4932d580
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 401[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 401
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"pharmaceutical,side,opd,medicine,medical services,inventory,pharmacovigilance,drug","Company Name":"Saijyot Generic Medical","Salary":"Not disclosed","Experience":"1-5 Yrs","Job Title":"Pharmacist","Expectation":"shroffsfoundation is looking for Pharmacist to join our dynamic team and embark on a re...","Location":"Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/16[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 442[\r][\n]"
+ << "ETag: W/"1ba-COvDTeGAOgL9G0q8k4NphJRH58E"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:11 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/16
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 442
+<< ETag: W/"1ba-COvDTeGAOgL9G0q8k4NphJRH58E"
+<< Date: Tue, 07 Jan 2025 14:14:11 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "pharmaceutical,side,opd,medicine,medical services,inventory,pharmacovigilance,drug",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "1-5 Yrs",[\n]"
+ << "  "Job Title": "Pharmacist",[\n]"
+ << "  "Expectation": "shroffsfoundation is looking for Pharmacist to join our dynamic team and embark on a re...",[\n]"
+ << "  "Location": "Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru",[\n]"
+ << "  "id": 16[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5862ab28
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 339[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 339
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"CMO,Resident Medical Officer,Duty Doctor,Medical Officer.,NABH,Medical,Pharmacy","Company Name":"Saijyot Generic Medical","Salary":"Not disclosed","Experience":"1-2 Yrs","Job Title":"Pharmacist","Expectation":"Candidate should be B.Pharm. Should have minimum 1- 2 years of experience. Fresher can ...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/17[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 380[\r][\n]"
+ << "ETag: W/"17c-Jko5PRO5X8dZR6edCEO09DDHCNs"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:13 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/17
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 380
+<< ETag: W/"17c-Jko5PRO5X8dZR6edCEO09DDHCNs"
+<< Date: Tue, 07 Jan 2025 14:14:13 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "CMO,Resident Medical Officer,Duty Doctor,Medical Officer.,NABH,Medical,Pharmacy",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "1-2 Yrs",[\n]"
+ << "  "Job Title": "Pharmacist",[\n]"
+ << "  "Expectation": "Candidate should be B.Pharm. Should have minimum 1- 2 years of experience. Fresher can ...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 17[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2e27325d
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 341[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 341
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"CMO,Resident Medical Officer,Duty Doctor,Medical Officer.,NABH,Pharmacy,Medical","Company Name":"Saijyot Generic Medical","Salary":"Not disclosed","Experience":"2-6 Yrs","Job Title":"Pharmacist","Expectation":"Candidate should have Diploma in pharma\/ B.Pharm. Experience of 1\/ 2 year will be prefe...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/18[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 380[\r][\n]"
+ << "ETag: W/"17c-6J5Ad1cxDvZQHTRupHSJmJV+M+M"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:15 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/18
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 380
+<< ETag: W/"17c-6J5Ad1cxDvZQHTRupHSJmJV+M+M"
+<< Date: Tue, 07 Jan 2025 14:14:15 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "CMO,Resident Medical Officer,Duty Doctor,Medical Officer.,NABH,Pharmacy,Medical",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "2-6 Yrs",[\n]"
+ << "  "Job Title": "Pharmacist",[\n]"
+ << "  "Expectation": "Candidate should have Diploma in pharma/ B.Pharm. Experience of 1/ 2 year will be prefe...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 18[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@bddac1c
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 328[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 328
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"QC,Pharmacy","Company Name":"Saijyot Generic Medical","Salary":"Not disclosed","Experience":"0-6 Yrs","Job Title":"Pharmacist","Expectation":"A Pharmacist is a healthcare professional who is responsible for dispensing prescript...","Location":"Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/19[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 369[\r][\n]"
+ << "ETag: W/"171-TSi+QU7ziNJVPsrK9dB6DkHcG58"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:18 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/19
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 369
+<< ETag: W/"171-TSi+QU7ziNJVPsrK9dB6DkHcG58"
+<< Date: Tue, 07 Jan 2025 14:14:18 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "QC,Pharmacy",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "0-6 Yrs",[\n]"
+ << "  "Job Title": "Pharmacist",[\n]"
+ << "  "Expectation": "A Pharmacist is a healthcare professional who is responsible for dispensing prescript...",[\n]"
+ << "  "Location": "Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru",[\n]"
+ << "  "id": 19[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@31921151
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 372[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 372
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"marketing executive,distributors,sales strategy,Business Development,sales executive,Sales,Pharmacy,Development","Company Name":"Saijyot Generic Medical","Salary":"Not disclosed","Experience":"3-7 Yrs","Job Title":"Pharmacist","Expectation":"Candidate should have Diploma in D.Pharm. Should have 2\/ 3 years experience. Should be ...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/20[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 412[\r][\n]"
+ << "ETag: W/"19c-qjExIcYO0QselhNeWc9DNAonh6s"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:20 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/20
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 412
+<< ETag: W/"19c-qjExIcYO0QselhNeWc9DNAonh6s"
+<< Date: Tue, 07 Jan 2025 14:14:20 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "marketing executive,distributors,sales strategy,Business Development,sales executive,Sales,Pharmacy,Development",[\n]"
+ << "  "Company Name": "Saijyot Generic Medical",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "3-7 Yrs",[\n]"
+ << "  "Job Title": "Pharmacist",[\n]"
+ << "  "Expectation": "Candidate should have Diploma in D.Pharm. Should have 2/ 3 years experience. Should be ...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 20[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6ca97ddf
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 408[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 408
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Java Selenium,C#,Selenium Testing,Automation Testing,Selenium Automation,Automation,Selenium Automation Testing,Software testing","Company Name":"Infosys","Salary":"Not disclosed","Experience":"3-5 Yrs","Job Title":"Selenium Automation Tester","Expectation":"Analytical abilities, Strong Technical Skills, Good communication skills Good understan...","Location":"Pune, Chennai, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/21[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 449[\r][\n]"
+ << "ETag: W/"1c1-2BesqQUH2yC+BafLgLrGEv3z8WQ"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:22 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/21
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 449
+<< ETag: W/"1c1-2BesqQUH2yC+BafLgLrGEv3z8WQ"
+<< Date: Tue, 07 Jan 2025 14:14:22 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Java Selenium,C#,Selenium Testing,Automation Testing,Selenium Automation,Automation,Selenium Automation Testing,Software testing",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "3-5 Yrs",[\n]"
+ << "  "Job Title": "Selenium Automation Tester",[\n]"
+ << "  "Expectation": "Analytical abilities, Strong Technical Skills, Good communication skills Good understan...",[\n]"
+ << "  "Location": "Pune, Chennai, Bengaluru",[\n]"
+ << "  "id": 21[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7e2f16bd
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 381[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 381
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Python Testing,Testing Frameworks,Selenium Automation,Java Selenium,Framework,Selenium,Automation testing,Automation","Company Name":"Infosys","Salary":"5-8 Lacs PA","Experience":"3-5 Yrs","Job Title":"Selenium Automation Test Engineer","Expectation":"Preferred candidate profile . Education: graduation completed or BCA or BEExperience an...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/22[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 422[\r][\n]"
+ << "ETag: W/"1a6-QEe2mdnCDc+Z1f56Pr9HTSggzD8"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:24 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/22
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 422
+<< ETag: W/"1a6-QEe2mdnCDc+Z1f56Pr9HTSggzD8"
+<< Date: Tue, 07 Jan 2025 14:14:24 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Python Testing,Testing Frameworks,Selenium Automation,Java Selenium,Framework,Selenium,Automation testing,Automation",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "5-8 Lacs PA",[\n]"
+ << "  "Experience": "3-5 Yrs",[\n]"
+ << "  "Job Title": "Selenium Automation Test Engineer",[\n]"
+ << "  "Expectation": "Preferred candidate profile . Education: graduation completed or BCA or BEExperience an...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 22[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@41c83af0
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 411[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 411
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"C#,Api Automation,Selenium,Automation,Software testing,API,API Testing,Automation testing","Company Name":"Infosys","Salary":"Not disclosed","Experience":"6-10 Yrs","Job Title":"Automation Test Engineer - Selenium, C# with API","Expectation":"Candidate should have good communication skillsSkill : Selenium C# with API. Job Locati...","Location":"Hybrid - Hyderabad, Chennai, Bangalore Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/23[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 452[\r][\n]"
+ << "ETag: W/"1c4-BdwM6EZs11RY7AJ5H9HdfA+29nY"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:26 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/23
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 452
+<< ETag: W/"1c4-BdwM6EZs11RY7AJ5H9HdfA+29nY"
+<< Date: Tue, 07 Jan 2025 14:14:26 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "C#,Api Automation,Selenium,Automation,Software testing,API,API Testing,Automation testing",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "6-10 Yrs",[\n]"
+ << "  "Job Title": "Automation Test Engineer - Selenium, C# with API",[\n]"
+ << "  "Expectation": "Candidate should have good communication skillsSkill : Selenium C# with API. Job Locati...",[\n]"
+ << "  "Location": "Hybrid - Hyderabad, Chennai, Bangalore Pune",[\n]"
+ << "  "id": 23[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3ec98000
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 446[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 446
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Test Case Creation,Integration Testing,Automation Testing,Regression Testing,Software Testing Life Cycle,Test Planning,Software Testing,Qa Engineering","Company Name":"Infosys","Salary":"6-14 Lacs PA","Experience":"1-3 Yrs","Job Title":"Software Test Engineer- Automation Testing (Selenium)","Expectation":"Looking for a QA\/Test Engineer to participate in all stages of the software lifecycle, ...","Location":"Pune(Camp +3)"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/24[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 486[\r][\n]"
+ << "ETag: W/"1e6-w0fChLmjz7IKLhnAGwtcX4Eu0RU"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:28 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/24
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 486
+<< ETag: W/"1e6-w0fChLmjz7IKLhnAGwtcX4Eu0RU"
+<< Date: Tue, 07 Jan 2025 14:14:28 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Test Case Creation,Integration Testing,Automation Testing,Regression Testing,Software Testing Life Cycle,Test Planning,Software Testing,Qa Engineering",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "6-14 Lacs PA",[\n]"
+ << "  "Experience": "1-3 Yrs",[\n]"
+ << "  "Job Title": "Software Test Engineer- Automation Testing (Selenium)",[\n]"
+ << "  "Expectation": "Looking for a QA/Test Engineer to participate in all stages of the software lifecycle, ...",[\n]"
+ << "  "Location": "Pune(Camp +3)",[\n]"
+ << "  "id": 24[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@17e66aed
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 416[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 416
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Maven,GIT,Business transformation,Debugging,System integration,Agile,Selenium,Test cases","Company Name":"Infosys","Salary":"Not disclosed","Experience":"3-7 Yrs","Job Title":"Automation Tester-Java Selenium Job","Expectation":"Should be good in understanding Integrated system and derive System Integration test ca...","Location":"Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/25[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 457[\r][\n]"
+ << "ETag: W/"1c9-4yFlyojyLoVIVKPLvlZILijkyoA"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:30 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/25
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 457
+<< ETag: W/"1c9-4yFlyojyLoVIVKPLvlZILijkyoA"
+<< Date: Tue, 07 Jan 2025 14:14:30 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Maven,GIT,Business transformation,Debugging,System integration,Agile,Selenium,Test cases",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "3-7 Yrs",[\n]"
+ << "  "Job Title": "Automation Tester-Java Selenium Job",[\n]"
+ << "  "Expectation": "Should be good in understanding Integrated system and derive System Integration test ca...",[\n]"
+ << "  "Location": "Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru",[\n]"
+ << "  "id": 25[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2f98fe6f
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 421[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 421
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Administration,Automation,Automation testing,Testing tools,Programming,Selenium,Application software,Enterprise software","Company Name":"Infosys","Salary":"Not disclosed","Experience":"1-3 Yrs","Job Title":"Automation Tester - Selenium","Expectation":"Must possess critical thinking skills in addition to good interpersonal and communicati...","Location":"Pune, Mumbai, Hyderabad, Chennai, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/26[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 462[\r][\n]"
+ << "ETag: W/"1ce-VwAPt8TERM61ZM3SuOZcyhXcVs4"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:32 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/26
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 462
+<< ETag: W/"1ce-VwAPt8TERM61ZM3SuOZcyhXcVs4"
+<< Date: Tue, 07 Jan 2025 14:14:32 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Administration,Automation,Automation testing,Testing tools,Programming,Selenium,Application software,Enterprise software",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "1-3 Yrs",[\n]"
+ << "  "Job Title": "Automation Tester - Selenium",[\n]"
+ << "  "Expectation": "Must possess critical thinking skills in addition to good interpersonal and communicati...",[\n]"
+ << "  "Location": "Pune, Mumbai, Hyderabad, Chennai, Bengaluru",[\n]"
+ << "  "id": 26[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6f00c40e
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 338[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 338
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"UFT,selenium testing,SOAP TESTING,API,AUTOMATION TESTING,SOAP UI,Selenium Webdriver,Groovy","Company Name":"Infosys","Salary":"5-13 Lacs PA","Experience":"5-10 Yrs","Job Title":"Selenium Tester","Expectation":"Hi, , We have openings with Infosys for Selenium+Java\/UFT, Jenkins, SoapUI+Groovy, Ji...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/27[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 378[\r][\n]"
+ << "ETag: W/"17a-zFcS8E3vXcQICpPjnjsiYzC4wc4"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:34 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/27
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 378
+<< ETag: W/"17a-zFcS8E3vXcQICpPjnjsiYzC4wc4"
+<< Date: Tue, 07 Jan 2025 14:14:34 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "UFT,selenium testing,SOAP TESTING,API,AUTOMATION TESTING,SOAP UI,Selenium Webdriver,Groovy",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "5-13 Lacs PA",[\n]"
+ << "  "Experience": "5-10 Yrs",[\n]"
+ << "  "Job Title": "Selenium Tester",[\n]"
+ << "  "Expectation": "Hi, , We have openings with Infosys for Selenium+Java/UFT, Jenkins, SoapUI+Groovy, Ji...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 27[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@60739eca
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 402[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 402
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Computer science,Web application testing,Backend,Test case execution,Functional testing,Integration testing,Regression testing,Selenium","Company Name":"Infosys","Salary":"Not disclosed","Experience":"4-6 Yrs","Job Title":"Automation Tester (Selenium Java)","Expectation":"We are seeking an Automation Tester (Selenium Java) with 4+ years of experience in test...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/28[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 443[\r][\n]"
+ << "ETag: W/"1bb-e/Ff8sA+N8X2XOkSQ8wsg7DY5Jw"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:36 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/28
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 443
+<< ETag: W/"1bb-e/Ff8sA+N8X2XOkSQ8wsg7DY5Jw"
+<< Date: Tue, 07 Jan 2025 14:14:36 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Computer science,Web application testing,Backend,Test case execution,Functional testing,Integration testing,Regression testing,Selenium",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "4-6 Yrs",[\n]"
+ << "  "Job Title": "Automation Tester (Selenium Java)",[\n]"
+ << "  "Expectation": "We are seeking an Automation Tester (Selenium Java) with 4+ years of experience in test...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 28[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@147aceec
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 373[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 373
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Manager Quality Assurance,GIT,Test scripts,HTTP,Scrum,Agile methodology,Selenium,Test cases","Company Name":"Infosys","Salary":"Not disclosed","Experience":"4-6 Yrs","Job Title":"Automation Tester with Selenium Java Experience","Expectation":"Should have strong experience in Automation Industry Frameworks like BDD, Cucumber \/ PO...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/29[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 413[\r][\n]"
+ << "ETag: W/"19d-yunTNSRgS/y6YDPY+hcEaGIr+I8"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:38 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/29
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 413
+<< ETag: W/"19d-yunTNSRgS/y6YDPY+hcEaGIr+I8"
+<< Date: Tue, 07 Jan 2025 14:14:38 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Manager Quality Assurance,GIT,Test scripts,HTTP,Scrum,Agile methodology,Selenium,Test cases",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "4-6 Yrs",[\n]"
+ << "  "Job Title": "Automation Tester with Selenium Java Experience",[\n]"
+ << "  "Expectation": "Should have strong experience in Automation Industry Frameworks like BDD, Cucumber / PO...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 29[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1f381eaf
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connection 0.0.0.0:51928<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51863<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51873<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51883<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51893<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51907<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51918<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51942<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51952<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51962<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51976<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51991<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:52001<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:52021<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:52023<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51789<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51796<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51798<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51800<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51802<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51805<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51807<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51809<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51811<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51827<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51833<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51843<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51857<->0:0:0:0:0:0:0:1:3000 closed
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 396[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 396
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Java,Selenium Webdriver,Automation Testing,Api Automation,Bdd,Rest Assured,Selenium,Automation","Company Name":"Infosys","Salary":"Not disclosed","Experience":"4-8 Yrs","Job Title":"Software Engineer- Automation Testing","Expectation":"Strong experience in Java and Selenium WebDriver; familiarity with JUnit\/TestNG and CI\/...","Location":"Hybrid - Pune, Chennai, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/30[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 435[\r][\n]"
+ << "ETag: W/"1b3-Q+mb5H1iIooynIuJPJperVZlSaE"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:40 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/30
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 435
+<< ETag: W/"1b3-Q+mb5H1iIooynIuJPJperVZlSaE"
+<< Date: Tue, 07 Jan 2025 14:14:40 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Java,Selenium Webdriver,Automation Testing,Api Automation,Bdd,Rest Assured,Selenium,Automation",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "4-8 Yrs",[\n]"
+ << "  "Job Title": "Software Engineer- Automation Testing",[\n]"
+ << "  "Expectation": "Strong experience in Java and Selenium WebDriver; familiarity with JUnit/TestNG and CI/...",[\n]"
+ << "  "Location": "Hybrid - Pune, Chennai, Bengaluru",[\n]"
+ << "  "id": 30[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@36dc6b9
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 389[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 389
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"mobile automation testing,selenium,mobile testing,sdlc,agile methodology,selenium testing,automation testing,maven","Company Name":"Infosys","Salary":"Not disclosed","Experience":"3-5 Yrs","Job Title":"Java Selenium Automation Testing Engineer","Expectation":"MCA, MSc, MTech, BCA, BSc, Bachelor Of Technology, Bachelor of Engineering . Service Li...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/31[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 430[\r][\n]"
+ << "ETag: W/"1ae-6pnD8xdrmr5uCQMYFucbLW3jaho"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:42 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/31
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 430
+<< ETag: W/"1ae-6pnD8xdrmr5uCQMYFucbLW3jaho"
+<< Date: Tue, 07 Jan 2025 14:14:42 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "mobile automation testing,selenium,mobile testing,sdlc,agile methodology,selenium testing,automation testing,maven",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "3-5 Yrs",[\n]"
+ << "  "Job Title": "Java Selenium Automation Testing Engineer",[\n]"
+ << "  "Expectation": "MCA, MSc, MTech, BCA, BSc, Bachelor Of Technology, Bachelor of Engineering . Service Li...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 31[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4844e24b
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 397[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 397
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Java Selenium,C#,Automation Testing,Java,Software testing,Selenium Automation,Selenium Automation Testing,Selenium","Company Name":"Infosys","Salary":"Not disclosed","Experience":"5-10 Yrs","Job Title":"Selenium Automation Tester","Expectation":"Analytical abilities, Strong Technical Skills, Good communication skills Good understan...","Location":"Pune, Hyderabad, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/32[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 438[\r][\n]"
+ << "ETag: W/"1b6-DuI3VtKKCmbIqW+431UqhoAEMbo"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:45 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/32
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 438
+<< ETag: W/"1b6-DuI3VtKKCmbIqW+431UqhoAEMbo"
+<< Date: Tue, 07 Jan 2025 14:14:45 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Java Selenium,C#,Automation Testing,Java,Software testing,Selenium Automation,Selenium Automation Testing,Selenium",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "5-10 Yrs",[\n]"
+ << "  "Job Title": "Selenium Automation Tester",[\n]"
+ << "  "Expectation": "Analytical abilities, Strong Technical Skills, Good communication skills Good understan...",[\n]"
+ << "  "Location": "Pune, Hyderabad, Bengaluru",[\n]"
+ << "  "id": 32[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7e5e7753
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 399[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 399
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"mobile automation testing,machine learning,mobile testing,sdlc,agile methodology,python,project management,data validation","Company Name":"Infosys","Salary":"Not disclosed","Experience":"3-5 Yrs","Job Title":"Python Selenium Automation Testing Engineer","Expectation":"MSc, MTech, MCA, BCA, BSc, Bachelor Of Technology, Bachelor of Engineering . Service Li...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/33[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 440[\r][\n]"
+ << "ETag: W/"1b8-hWifxRbX3wI8b42zp7heEnYTkTQ"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:47 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/33
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 440
+<< ETag: W/"1b8-hWifxRbX3wI8b42zp7heEnYTkTQ"
+<< Date: Tue, 07 Jan 2025 14:14:47 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "mobile automation testing,machine learning,mobile testing,sdlc,agile methodology,python,project management,data validation",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "3-5 Yrs",[\n]"
+ << "  "Job Title": "Python Selenium Automation Testing Engineer",[\n]"
+ << "  "Expectation": "MSc, MTech, MCA, BCA, BSc, Bachelor Of Technology, Bachelor of Engineering . Service Li...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 33[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@36c1b6ff
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 403[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 403
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Selenium With Java,Automation Testing,Selenium Automation,Automation,Java Selenium,Selenium,Software testing,Java","Company Name":"Infosys","Salary":"Not disclosed","Experience":"3-8 Yrs","Job Title":"Automation Tester (Java Selenium)-","Expectation":"Analytical abilities, Strong Technical Skills, Good communication skills Good understan...","Location":"Pune, Hyderabad, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/34[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 444[\r][\n]"
+ << "ETag: W/"1bc-zu+mVE06zpitCXFLRrghv1OtMos"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:49 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/34
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 444
+<< ETag: W/"1bc-zu+mVE06zpitCXFLRrghv1OtMos"
+<< Date: Tue, 07 Jan 2025 14:14:49 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Selenium With Java,Automation Testing,Selenium Automation,Automation,Java Selenium,Selenium,Software testing,Java",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "3-8 Yrs",[\n]"
+ << "  "Job Title": "Automation Tester (Java Selenium)-",[\n]"
+ << "  "Expectation": "Analytical abilities, Strong Technical Skills, Good communication skills Good understan...",[\n]"
+ << "  "Location": "Pune, Hyderabad, Bengaluru",[\n]"
+ << "  "id": 34[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@278cbf5a
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 365[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 365
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"automation framework,web services,performance testing,ubr,test cases,ais,bitbucket,sql","Company Name":"Infosys","Salary":"Not disclosed","Experience":"9-11 Yrs","Job Title":"Specialist Automation Test Engineer","Expectation":"At NICE, we work according to the NICE-FLEX hybrid model, which enables maximum flexibi...","Location":"Hybrid - Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/35[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 406[\r][\n]"
+ << "ETag: W/"196-val9uG6TldtU9SKZ1NOF7AVxsfE"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:51 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/35
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 406
+<< ETag: W/"196-val9uG6TldtU9SKZ1NOF7AVxsfE"
+<< Date: Tue, 07 Jan 2025 14:14:51 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "automation framework,web services,performance testing,ubr,test cases,ais,bitbucket,sql",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "9-11 Yrs",[\n]"
+ << "  "Job Title": "Specialist Automation Test Engineer",[\n]"
+ << "  "Expectation": "At NICE, we work according to the NICE-FLEX hybrid model, which enables maximum flexibi...",[\n]"
+ << "  "Location": "Hybrid - Pune",[\n]"
+ << "  "id": 35[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7db70494
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 402[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 402
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Selenium Testing,Automation Testing,Selenium Automation,Automation,Hiring,Selenium,Software testing","Company Name":"Infosys","Salary":"Not disclosed","Experience":"3-8 Yrs","Job Title":"HCL Hiring For Automation Testing-Selenium","Expectation":"Skills-. Test Strategy and Planning - Estimation, Techniques, Testing Types, Test Life ...","Location":"Hybrid - Pune, Noida, Hyderabad"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/36[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 443[\r][\n]"
+ << "ETag: W/"1bb-hWOdx3LVCLpQbw8v6za7HazUW2U"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:53 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/36
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 443
+<< ETag: W/"1bb-hWOdx3LVCLpQbw8v6za7HazUW2U"
+<< Date: Tue, 07 Jan 2025 14:14:53 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Selenium Testing,Automation Testing,Selenium Automation,Automation,Hiring,Selenium,Software testing",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "3-8 Yrs",[\n]"
+ << "  "Job Title": "HCL Hiring For Automation Testing-Selenium",[\n]"
+ << "  "Expectation": "Skills-. Test Strategy and Planning - Estimation, Techniques, Testing Types, Test Life ...",[\n]"
+ << "  "Location": "Hybrid - Pune, Noida, Hyderabad",[\n]"
+ << "  "id": 36[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1104ad6a
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 312[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 312
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"C#,selenium,python,appium,testing,scrum,agile,engineer","Company Name":"Infosys","Salary":"Not disclosed","Experience":"4-7 Yrs","Job Title":"Automation Test Engineer","Expectation":"Automated testing experience in tools like Appium, Selenium, TestStack.White, Coded UI....","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/37[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 353[\r][\n]"
+ << "ETag: W/"161-LfbI57RZvb359hnjrWMEluBkA5c"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:55 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/37
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 353
+<< ETag: W/"161-LfbI57RZvb359hnjrWMEluBkA5c"
+<< Date: Tue, 07 Jan 2025 14:14:55 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "C#,selenium,python,appium,testing,scrum,agile,engineer",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "4-7 Yrs",[\n]"
+ << "  "Job Title": "Automation Test Engineer",[\n]"
+ << "  "Expectation": "Automated testing experience in tools like Appium, Selenium, TestStack.White, Coded UI....",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 37[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@8aafd70
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 364[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 364
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"C#,SDET,Javascript,Automation Testing,Selenium,Typescript,API Testing,Software testing","Company Name":"Infosys","Salary":"Not disclosed","Experience":"6-11 Yrs","Job Title":"Automation Test Engineer","Expectation":"3+ years hands on working with UI Automation tools like Selenium and modern tools like ...","Location":"Pune, Mumbai, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/38[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 405[\r][\n]"
+ << "ETag: W/"195-JwuFfOlglWqdU121DWSBIh7h6R8"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:57 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/38
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 405
+<< ETag: W/"195-JwuFfOlglWqdU121DWSBIh7h6R8"
+<< Date: Tue, 07 Jan 2025 14:14:57 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "C#,SDET,Javascript,Automation Testing,Selenium,Typescript,API Testing,Software testing",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "6-11 Yrs",[\n]"
+ << "  "Job Title": "Automation Test Engineer",[\n]"
+ << "  "Expectation": "3+ years hands on working with UI Automation tools like Selenium and modern tools like ...",[\n]"
+ << "  "Location": "Pune, Mumbai, Bengaluru",[\n]"
+ << "  "id": 38[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3e5ed0d4
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 400[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 400
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"NUnit,Automation,Coding,Test design,API Testing,Agile,Selenium,Server architecture","Company Name":"Infosys","Salary":"Not disclosed","Experience":"2-5 Yrs","Job Title":"Selenium Testing Engineer","Expectation":"Must have minimum 1 of these in the order of preference . Good experience about softwar...","Location":"Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/39[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 441[\r][\n]"
+ << "ETag: W/"1b9-SSvWCNCk8ldSVYjPyrB+8A4WSjw"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:14:59 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/39
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 441
+<< ETag: W/"1b9-SSvWCNCk8ldSVYjPyrB+8A4WSjw"
+<< Date: Tue, 07 Jan 2025 14:14:59 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "NUnit,Automation,Coding,Test design,API Testing,Agile,Selenium,Server architecture",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "2-5 Yrs",[\n]"
+ << "  "Job Title": "Selenium Testing Engineer",[\n]"
+ << "  "Expectation": "Must have minimum 1 of these in the order of preference . Good experience about softwar...",[\n]"
+ << "  "Location": "Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru",[\n]"
+ << "  "id": 39[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2faae7f6
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 384[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 384
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Computer science,Version control,GIT,Test scripts,Agile,Selenium,Test cases,Information technology","Company Name":"Infosys","Salary":"Not disclosed","Experience":"0-5 Yrs","Job Title":"Automation Test Engineer","Expectation":"Bachelor s degree in Computer Science, Information Technology, or a related field . WN ...","Location":"Pune, Noida, Gurugram, Bengaluru"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/40[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 425[\r][\n]"
+ << "ETag: W/"1a9-waaaVmCktNl5uDhVy4AKwcI/cAA"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:15:01 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/40
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 425
+<< ETag: W/"1a9-waaaVmCktNl5uDhVy4AKwcI/cAA"
+<< Date: Tue, 07 Jan 2025 14:15:01 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Computer science,Version control,GIT,Test scripts,Agile,Selenium,Test cases,Information technology",[\n]"
+ << "  "Company Name": "Infosys",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "0-5 Yrs",[\n]"
+ << "  "Job Title": "Automation Test Engineer",[\n]"
+ << "  "Expectation": "Bachelor s degree in Computer Science, Information Technology, or a related field . WN ...",[\n]"
+ << "  "Location": "Pune, Noida, Gurugram, Bengaluru",[\n]"
+ << "  "id": 40[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5b160208
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 381[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 381
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Automation,VB SCRIPT,Functional testing,Debugging,Javascript,Regression testing,Selenium,Test cases","Company Name":"marg compusoft pvt. ltd.","Salary":"Not disclosed","Experience":"2-6 Yrs","Job Title":"UFT Automation Tester","Expectation":"Experience in working with Agile \/ Scrum development methodologies . Technical Skills:U...","Location":"Pune, Chennai"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/41[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 421[\r][\n]"
+ << "ETag: W/"1a5-5sGT4gAzTTS9gfw1SvZbWZHH9Vk"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:15:03 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/41
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 421
+<< ETag: W/"1a5-5sGT4gAzTTS9gfw1SvZbWZHH9Vk"
+<< Date: Tue, 07 Jan 2025 14:15:03 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Automation,VB SCRIPT,Functional testing,Debugging,Javascript,Regression testing,Selenium,Test cases",[\n]"
+ << "  "Company Name": "marg compusoft pvt. ltd.",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "2-6 Yrs",[\n]"
+ << "  "Job Title": "UFT Automation Tester",[\n]"
+ << "  "Expectation": "Experience in working with Agile / Scrum development methodologies . Technical Skills:U...",[\n]"
+ << "  "Location": "Pune, Chennai",[\n]"
+ << "  "id": 41[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@36ec4071
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 381[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 381
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Automation,VB SCRIPT,Functional testing,Debugging,Javascript,Regression testing,Selenium,Test cases","Company Name":"marg compusoft pvt. ltd.","Salary":"Not disclosed","Experience":"2-5 Yrs","Job Title":"UFT Automation Tester","Expectation":"Experience in working with Agile \/ Scrum development methodologies. Technical Skills:.U...","Location":"Pune, Chennai"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/42[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 421[\r][\n]"
+ << "ETag: W/"1a5-mj/zxr/auSw0APh6JwWUwFwTjbo"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:15:05 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/42
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 421
+<< ETag: W/"1a5-mj/zxr/auSw0APh6JwWUwFwTjbo"
+<< Date: Tue, 07 Jan 2025 14:15:05 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Automation,VB SCRIPT,Functional testing,Debugging,Javascript,Regression testing,Selenium,Test cases",[\n]"
+ << "  "Company Name": "marg compusoft pvt. ltd.",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "2-5 Yrs",[\n]"
+ << "  "Job Title": "UFT Automation Tester",[\n]"
+ << "  "Expectation": "Experience in working with Agile / Scrum development methodologies. Technical Skills:.U...",[\n]"
+ << "  "Location": "Pune, Chennai",[\n]"
+ << "  "id": 42[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3cf7433e
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 392[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 392
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Automation testing,SAP,Business transformation,Agile,Manager Technology,Test planning,Test cases,Testing","Company Name":"marg compusoft pvt. ltd.","Salary":"Not disclosed","Experience":"3-7 Yrs","Job Title":"SAP Test Automation Engineer-UFT Job","Expectation":". Well versed in creating Test plan, developing test cases \/ scripts and establishing t...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/43[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 432[\r][\n]"
+ << "ETag: W/"1b0-uQAHb873AvMNFQdRXwSdlvMVnBE"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:15:07 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/43
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 432
+<< ETag: W/"1b0-uQAHb873AvMNFQdRXwSdlvMVnBE"
+<< Date: Tue, 07 Jan 2025 14:15:07 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Automation testing,SAP,Business transformation,Agile,Manager Technology,Test planning,Test cases,Testing",[\n]"
+ << "  "Company Name": "marg compusoft pvt. ltd.",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "3-7 Yrs",[\n]"
+ << "  "Job Title": "SAP Test Automation Engineer-UFT Job",[\n]"
+ << "  "Expectation": ". Well versed in creating Test plan, developing test cases / scripts and establishing t...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 43[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@544733a4
+Connection can be kept alive for 5000 MILLISECONDS
+Get connection for route {}->http://localhost:3000
+Connecting to localhost:3000
+Connect to localhost:3000 timed out. Connection will be retried using another IP address
+Connecting to localhost:3000
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: POST /jobs HTTP/1.1
+ >> "POST /jobs HTTP/1.1[\r][\n]"
+ >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+ >> "Content-Type: Application/Json[\r][\n]"
+ >> "Content-Length: 351[\r][\n]"
+ >> "Host: localhost:3000[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> POST /jobs HTTP/1.1
+>> Accept: application/json, application/javascript, text/javascript, text/json
+>> Content-Type: Application/Json
+>> Content-Length: 351
+>> Host: localhost:3000
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"Skill Expected":"Client handling,Automation,Manual testing,Agile,Manual,Client,Handling,Software testing","Company Name":"marg compusoft pvt. ltd.","Salary":"Not disclosed","Experience":"6-8 Yrs","Job Title":"Manual Tester","Expectation":"good manual testing concepts Proficiency in working in Agile environment is a must Over...","Location":"Pune"}"
+ << "HTTP/1.1 201 Created[\r][\n]"
+ << "X-Powered-By: Express[\r][\n]"
+ << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+ << "Access-Control-Allow-Credentials: true[\r][\n]"
+ << "Cache-Control: no-cache[\r][\n]"
+ << "Pragma: no-cache[\r][\n]"
+ << "Expires: -1[\r][\n]"
+ << "Access-Control-Expose-Headers: Location[\r][\n]"
+ << "Location: http://localhost:3000/jobs/44[\r][\n]"
+ << "X-Content-Type-Options: nosniff[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Content-Length: 392[\r][\n]"
+ << "ETag: W/"188-IByRMRd5wEzXSJt4M2tAZnOZX1w"[\r][\n]"
+ << "Date: Tue, 07 Jan 2025 14:15:10 GMT[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Keep-Alive: timeout=5[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 201 Created
+<< HTTP/1.1 201 Created
+<< X-Powered-By: Express
+<< Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+<< Access-Control-Allow-Credentials: true
+<< Cache-Control: no-cache
+<< Pragma: no-cache
+<< Expires: -1
+<< Access-Control-Expose-Headers: Location
+<< Location: http://localhost:3000/jobs/44
+<< X-Content-Type-Options: nosniff
+<< Content-Type: application/json; charset=utf-8
+<< Content-Length: 392
+<< ETag: W/"188-IByRMRd5wEzXSJt4M2tAZnOZX1w"
+<< Date: Tue, 07 Jan 2025 14:15:10 GMT
+<< Connection: keep-alive
+<< Keep-Alive: timeout=5
+Connection can be kept alive for 5000 MILLISECONDS
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{[\n]"
+ << "  "Skill Expected": "Client handling,Automation,Manual testing,Agile,Manual,Client,Handling,Software testing",[\n]"
+ << "  "Company Name": "marg compusoft pvt. ltd.",[\n]"
+ << "  "Salary": "Not disclosed",[\n]"
+ << "  "Experience": "6-8 Yrs",[\n]"
+ << "  "Job Title": "Manual Tester",[\n]"
+ << "  "Expectation": "good manual testing concepts Proficiency in working in Agile environment is a must Over...",[\n]"
+ << "  "Location": "Pune",[\n]"
+ << "  "id": 44[\n]"
+ << "}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1e6e29d6
+Connection can be kept alive for 5000 MILLISECONDS
+Test Success : TC_004_Run
+After Test : Driver Quit and Log Manager ShutDown
+Connection 0.0.0.0:52061<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:52059<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:52057<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:52055<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:52050<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:52047<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:52044<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:52042<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:52039<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:52037<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:52035<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:52031<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:52029<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:52027<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:52025<->0:0:0:0:0:0:0:1:3000 closed
+Connection 0.0.0.0:51786<->0:0:0:0:0:0:0:1:3000 closed
+Execution Ends 2025-01-07T19:45:10.371777300
+System Exit
+Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+"spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+Loading template for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+"spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
+TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/E:/CommonSetup/MavenLocalRepository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"

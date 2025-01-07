@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="reusables.TngListeners"/>
+  </listeners>
+  <test thread-count="5" name="EdgeTest(failed)" verbose="0">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="edge"/>
+    <groups>
+      <run>
+        <include name="regression"/>
+        <exclude name="UAT"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="actionsteps.Driver">
+        <methods>
+          <include name="TestPreconditions"/>
+          <include name="TC_001_Run"/>
+          <include name="TC_003_Run"/>
+          <include name="TestPostConditions"/>
+          <include name="TC_002_Run" invocation-numbers="2 3 4"/>
+          <include name="TC_004_Run"/>
+        </methods>
+      </class> <!-- actionsteps.Driver -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
