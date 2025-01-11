@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Info --> Config VBS File Read Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Before Test : All Folders Created And Logger]]>
+    </line>
+    <line>
+      <![CDATA[Passed --> Input Jobs And Email Recipient Read Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Passed --> Website nakridotcom launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Job Search For : uft automation Pune]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Job Results For uft automation Pune]]>
+    </line>
+    <line>
+      <![CDATA[Passed --> Website nakridotcom launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Job Search For : selenium testing Pune]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Job Results For selenium testing Pune]]>
+    </line>
+    <line>
+      <![CDATA[Passed --> Job Results Exported To Excel]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Summary Report Format Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Saving JobReportSummary by local date format]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Saved To E:\SeleniumProjects\NaukriApiMvn1\Automation\TestReport\JobSummaryReport_11-01-2025 11_39_21.xlsx]]>
+    </line>
+    <line>
+      <![CDATA[Passed --> Email Sent Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Info --> After Test : Driver Quit and Log Manager ShutDown]]>
+    </line>
+    <line>
+      <![CDATA[Info --> Execution Ends 2025-01-11T11:41:28.790817900]]>
+    </line>
+    <line>
+      <![CDATA[Info --> System Exit]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-01-11T11:39:21 IST" name="Default suite" finished-at="2025-01-11T11:41:31 IST" duration-ms="129981">
+    <groups>
+      <group name="regression">
+        <method signature="Driver.TC_001_Run()[pri:1, instance:actionsteps.Driver@3c46e67a]" name="TC_001_Run" class="actionsteps.Driver"/>
+        <method signature="Driver.TC_002_Run(java.lang.String, java.lang.String)[pri:2, instance:actionsteps.Driver@3c46e67a]" name="TC_002_Run" class="actionsteps.Driver"/>
+        <method signature="Driver.TC_003_Run()[pri:3, instance:actionsteps.Driver@3c46e67a]" name="TC_003_Run" class="actionsteps.Driver"/>
+        <method signature="Driver.TC_004_Run()[pri:4, instance:actionsteps.Driver@3c46e67a]" name="TC_004_Run" class="actionsteps.Driver"/>
+        <method signature="Driver.TC_005_Run()[pri:5, instance:actionsteps.Driver@3c46e67a]" name="TC_005_Run" class="actionsteps.Driver"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="Driver.TC_001_Run()[pri:1, instance:actionsteps.Driver@3c46e67a]" name="TC_001_Run" class="actionsteps.Driver"/>
+        <method signature="Driver.TC_002_Run(java.lang.String, java.lang.String)[pri:2, instance:actionsteps.Driver@3c46e67a]" name="TC_002_Run" class="actionsteps.Driver"/>
+        <method signature="Driver.TC_003_Run()[pri:3, instance:actionsteps.Driver@3c46e67a]" name="TC_003_Run" class="actionsteps.Driver"/>
+        <method signature="Driver.TC_004_Run()[pri:4, instance:actionsteps.Driver@3c46e67a]" name="TC_004_Run" class="actionsteps.Driver"/>
+        <method signature="Driver.TC_005_Run()[pri:5, instance:actionsteps.Driver@3c46e67a]" name="TC_005_Run" class="actionsteps.Driver"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-01-11T11:39:21 IST" name="Default test" finished-at="2025-01-11T11:41:31 IST" duration-ms="129981">
+      <class name="actionsteps.Driver">
+        <test-method is-config="true" signature="TestPreconditions(java.lang.String, java.lang.String)[pri:0, instance:actionsteps.Driver@3c46e67a]" started-at="2025-01-11T11:39:21 IST" name="TestPreconditions" finished-at="2025-01-11T11:39:28 IST" duration-ms="6382" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Info --> Config VBS File Read Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Before Test : All Folders Created And Logger]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestPreconditions -->
+        <test-method signature="TC_001_Run()[pri:1, instance:actionsteps.Driver@3c46e67a]" started-at="2025-01-11T11:39:28 IST" name="TC_001_Run" finished-at="2025-01-11T11:39:28 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed --> Input Jobs And Email Recipient Read Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_001_Run -->
+        <test-method signature="TC_002_Run(java.lang.String, java.lang.String)[pri:2, instance:actionsteps.Driver@3c46e67a]" started-at="2025-01-11T11:39:28 IST" name="TC_002_Run" data-provider="JobLocationDP" finished-at="2025-01-11T11:39:46 IST" depends-on-methods="actionsteps.Driver.TC_001_Run" duration-ms="18096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uft automation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Passed --> Website nakridotcom launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Job Search For : uft automation Pune]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Job Results For uft automation Pune]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_002_Run -->
+        <test-method signature="TC_002_Run(java.lang.String, java.lang.String)[pri:2, instance:actionsteps.Driver@3c46e67a]" started-at="2025-01-11T11:39:46 IST" name="TC_002_Run" data-provider="JobLocationDP" finished-at="2025-01-11T11:39:59 IST" depends-on-methods="actionsteps.Driver.TC_001_Run" duration-ms="12855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium testing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Passed --> Website nakridotcom launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Job Search For : selenium testing Pune]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Job Results For selenium testing Pune]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_002_Run -->
+        <test-method signature="TC_003_Run()[pri:3, instance:actionsteps.Driver@3c46e67a]" started-at="2025-01-11T11:39:59 IST" name="TC_003_Run" finished-at="2025-01-11T11:40:11 IST" depends-on-methods="actionsteps.Driver.TC_001_Run, actionsteps.Driver.TC_002_Run" duration-ms="11742" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed --> Job Results Exported To Excel]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Summary Report Format Successfull]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Saving JobReportSummary by local date format]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Saved To E:\SeleniumProjects\NaukriApiMvn1\Automation\TestReport\JobSummaryReport_11-01-2025 11_39_21.xlsx]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_003_Run -->
+        <test-method signature="TC_004_Run()[pri:4, instance:actionsteps.Driver@3c46e67a]" started-at="2025-01-11T11:40:11 IST" name="TC_004_Run" finished-at="2025-01-11T11:41:14 IST" depends-on-methods="actionsteps.Driver.TC_001_Run, actionsteps.Driver.TC_002_Run, actionsteps.Driver.TC_003_Run" duration-ms="63020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004_Run -->
+        <test-method signature="TC_005_Run()[pri:5, instance:actionsteps.Driver@3c46e67a]" started-at="2025-01-11T11:41:14 IST" name="TC_005_Run" finished-at="2025-01-11T11:41:28 IST" depends-on-methods="actionsteps.Driver.TC_001_Run, actionsteps.Driver.TC_002_Run, actionsteps.Driver.TC_003_Run" duration-ms="14482" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Passed --> Email Sent Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_005_Run -->
+        <test-method is-config="true" signature="TestPostConditions()[pri:0, instance:actionsteps.Driver@3c46e67a]" started-at="2025-01-11T11:41:28 IST" name="TestPostConditions" finished-at="2025-01-11T11:41:31 IST" duration-ms="3090" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Info --> After Test : Driver Quit and Log Manager ShutDown]]>
+            </line>
+            <line>
+              <![CDATA[Info --> Execution Ends 2025-01-11T11:41:28.790817900]]>
+            </line>
+            <line>
+              <![CDATA[Info --> System Exit]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestPostConditions -->
+      </class> <!-- actionsteps.Driver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="134.164" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\SeleniumProjects\NaukriApiMvn1\target\test-classes;E:\SeleniumProjects\NaukriApiMvn1\target\classes;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-java\4.20.0\selenium-java-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-api\4.20.0\selenium-api-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-chrome-driver\4.20.0\selenium-chrome-driver-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-chromium-driver\4.20.0\selenium-chromium-driver-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-json\4.20.0\selenium-json-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-manager\4.20.0\selenium-manager-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-devtools-v122\4.20.0\selenium-devtools-v122-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-devtools-v123\4.20.0\selenium-devtools-v123-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-devtools-v124\4.20.0\selenium-devtools-v124-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-devtools-v85\4.20.0\selenium-devtools-v85-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-edge-driver\4.20.0\selenium-edge-driver-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-firefox-driver\4.20.0\selenium-firefox-driver-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-http\4.20.0\selenium-http-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-ie-driver\4.20.0\selenium-ie-driver-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-remote-driver\4.20.0\selenium-remote-driver-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;E:\CommonSetup\MavenLocalRepository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;E:\CommonSetup\MavenLocalRepository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;E:\CommonSetup\MavenLocalRepository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;E:\CommonSetup\MavenLocalRepository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;E:\CommonSetup\MavenLocalRepository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;E:\CommonSetup\MavenLocalRepository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-api\1.37.0\opentelemetry-api-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-context\1.37.0\opentelemetry-context-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-exporter-logging\1.37.0\opentelemetry-exporter-logging-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-sdk-common\1.37.0\opentelemetry-sdk-common-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.37.0\opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.37.0\opentelemetry-sdk-extension-autoconfigure-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-api-incubator\1.37.0-alpha\opentelemetry-api-incubator-1.37.0-alpha.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-sdk-trace\1.37.0\opentelemetry-sdk-trace-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-sdk\1.37.0\opentelemetry-sdk-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-sdk-metrics\1.37.0\opentelemetry-sdk-metrics-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-sdk-logs\1.37.0\opentelemetry-sdk-logs-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\net\bytebuddy\byte-buddy\1.14.14\byte-buddy-1.14.14.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-os\4.20.0\selenium-os-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-safari-driver\4.20.0\selenium-safari-driver-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-support\4.20.0\selenium-support-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\testng\testng\7.10.2\testng-7.10.2.jar;E:\CommonSetup\MavenLocalRepository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;E:\CommonSetup\MavenLocalRepository\com\beust\jcommander\1.82\jcommander-1.82.jar;E:\CommonSetup\MavenLocalRepository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;E:\CommonSetup\MavenLocalRepository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;E:\CommonSetup\MavenLocalRepository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;E:\CommonSetup\MavenLocalRepository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;E:\CommonSetup\MavenLocalRepository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;E:\CommonSetup\MavenLocalRepository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;E:\CommonSetup\MavenLocalRepository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;E:\CommonSetup\MavenLocalRepository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;E:\CommonSetup\MavenLocalRepository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;E:\CommonSetup\MavenLocalRepository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;E:\CommonSetup\MavenLocalRepository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;E:\CommonSetup\MavenLocalRepository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;E:\CommonSetup\MavenLocalRepository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;E:\CommonSetup\MavenLocalRepository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;E:\CommonSetup\MavenLocalRepository\junit\junit\4.10\junit-4.10.jar;E:\CommonSetup\MavenLocalRepository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;E:\CommonSetup\MavenLocalRepository\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\CommonSetup\MavenLocalRepository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;E:\CommonSetup\MavenLocalRepository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;E:\CommonSetup\MavenLocalRepository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;E:\CommonSetup\MavenLocalRepository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;E:\CommonSetup\MavenLocalRepository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;E:\CommonSetup\MavenLocalRepository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;E:\CommonSetup\MavenLocalRepository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;E:\CommonSetup\MavenLocalRepository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;E:\CommonSetup\MavenLocalRepository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;E:\CommonSetup\MavenLocalRepository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;E:\CommonSetup\MavenLocalRepository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;E:\CommonSetup\MavenLocalRepository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;E:\CommonSetup\MavenLocalRepository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;E:\CommonSetup\MavenLocalRepository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;E:\CommonSetup\MavenLocalRepository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;E:\CommonSetup\MavenLocalRepository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;E:\CommonSetup\MavenLocalRepository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;E:\CommonSetup\MavenLocalRepository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;E:\CommonSetup\MavenLocalRepository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;E:\CommonSetup\MavenLocalRepository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;E:\CommonSetup\MavenLocalRepository\com\oracle\database\jdbc\ojdbc10\19.23.0.0\ojdbc10-19.23.0.0.jar;E:\CommonSetup\MavenLocalRepository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;E:\CommonSetup\MavenLocalRepository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;E:\CommonSetup\MavenLocalRepository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Kedar Datar\AppData\Local\Temp\surefire4662787511506814417\surefirebooter-20250111114507351_3.jar C:\Users\Kedar Datar\AppData\Local\Temp\surefire4662787511506814417 2025-01-11T11-45-06_875-jvmRun1 surefire-20250111114507351_1tmp surefire_0-20250111114507351_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\SeleniumProjects\NaukriApiMvn1\target\test-classes;E:\SeleniumProjects\NaukriApiMvn1\target\classes;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-java\4.20.0\selenium-java-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-api\4.20.0\selenium-api-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-chrome-driver\4.20.0\selenium-chrome-driver-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-chromium-driver\4.20.0\selenium-chromium-driver-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-json\4.20.0\selenium-json-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-manager\4.20.0\selenium-manager-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-devtools-v122\4.20.0\selenium-devtools-v122-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-devtools-v123\4.20.0\selenium-devtools-v123-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-devtools-v124\4.20.0\selenium-devtools-v124-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-devtools-v85\4.20.0\selenium-devtools-v85-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-edge-driver\4.20.0\selenium-edge-driver-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-firefox-driver\4.20.0\selenium-firefox-driver-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-http\4.20.0\selenium-http-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-ie-driver\4.20.0\selenium-ie-driver-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-remote-driver\4.20.0\selenium-remote-driver-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;E:\CommonSetup\MavenLocalRepository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;E:\CommonSetup\MavenLocalRepository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;E:\CommonSetup\MavenLocalRepository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;E:\CommonSetup\MavenLocalRepository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;E:\CommonSetup\MavenLocalRepository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;E:\CommonSetup\MavenLocalRepository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-api\1.37.0\opentelemetry-api-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-context\1.37.0\opentelemetry-context-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-exporter-logging\1.37.0\opentelemetry-exporter-logging-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-sdk-common\1.37.0\opentelemetry-sdk-common-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.37.0\opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.37.0\opentelemetry-sdk-extension-autoconfigure-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-api-incubator\1.37.0-alpha\opentelemetry-api-incubator-1.37.0-alpha.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-sdk-trace\1.37.0\opentelemetry-sdk-trace-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-sdk\1.37.0\opentelemetry-sdk-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-sdk-metrics\1.37.0\opentelemetry-sdk-metrics-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\io\opentelemetry\opentelemetry-sdk-logs\1.37.0\opentelemetry-sdk-logs-1.37.0.jar;E:\CommonSetup\MavenLocalRepository\net\bytebuddy\byte-buddy\1.14.14\byte-buddy-1.14.14.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-os\4.20.0\selenium-os-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-safari-driver\4.20.0\selenium-safari-driver-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\seleniumhq\selenium\selenium-support\4.20.0\selenium-support-4.20.0.jar;E:\CommonSetup\MavenLocalRepository\org\testng\testng\7.10.2\testng-7.10.2.jar;E:\CommonSetup\MavenLocalRepository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;E:\CommonSetup\MavenLocalRepository\com\beust\jcommander\1.82\jcommander-1.82.jar;E:\CommonSetup\MavenLocalRepository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;E:\CommonSetup\MavenLocalRepository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;E:\CommonSetup\MavenLocalRepository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;E:\CommonSetup\MavenLocalRepository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;E:\CommonSetup\MavenLocalRepository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;E:\CommonSetup\MavenLocalRepository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;E:\CommonSetup\MavenLocalRepository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;E:\CommonSetup\MavenLocalRepository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;E:\CommonSetup\MavenLocalRepository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;E:\CommonSetup\MavenLocalRepository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;E:\CommonSetup\MavenLocalRepository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;E:\CommonSetup\MavenLocalRepository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;E:\CommonSetup\MavenLocalRepository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;E:\CommonSetup\MavenLocalRepository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;E:\CommonSetup\MavenLocalRepository\junit\junit\4.10\junit-4.10.jar;E:\CommonSetup\MavenLocalRepository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;E:\CommonSetup\MavenLocalRepository\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\CommonSetup\MavenLocalRepository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;E:\CommonSetup\MavenLocalRepository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;E:\CommonSetup\MavenLocalRepository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;E:\CommonSetup\MavenLocalRepository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;E:\CommonSetup\MavenLocalRepository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;E:\CommonSetup\MavenLocalRepository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;E:\CommonSetup\MavenLocalRepository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;E:\CommonSetup\MavenLocalRepository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;E:\CommonSetup\MavenLocalRepository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;E:\CommonSetup\MavenLocalRepository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;E:\CommonSetup\MavenLocalRepository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;E:\CommonSetup\MavenLocalRepository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;E:\CommonSetup\MavenLocalRepository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;E:\CommonSetup\MavenLocalRepository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;E:\CommonSetup\MavenLocalRepository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;E:\CommonSetup\MavenLocalRepository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;E:\CommonSetup\MavenLocalRepository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;E:\CommonSetup\MavenLocalRepository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;E:\CommonSetup\MavenLocalRepository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;E:\CommonSetup\MavenLocalRepository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;E:\CommonSetup\MavenLocalRepository\com\oracle\database\jdbc\ojdbc10\19.23.0.0\ojdbc10-19.23.0.0.jar;E:\CommonSetup\MavenLocalRepository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;E:\CommonSetup\MavenLocalRepository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;E:\CommonSetup\MavenLocalRepository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Kedar Datar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\SeleniumProjects\NaukriApiMvn1"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Kedar Datar\AppData\Local\Temp\surefire4662787511506814417\surefirebooter-20250111114507351_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="user.name" value="Kedar Datar"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="E:\CommonSetup\MavenLocalRepository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\KEDARD~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="E:\SeleniumProjects\NaukriApiMvn1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Python313\Scripts\;C:\Python313\;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-15.0.1\bin;&quot;C:\Program Files\Java\jdk-15.0.1\bin;&quot;;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Kedar Datar\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Kedar Datar\AppData\Local\Programs\Python\Python39\;C:\Users\Kedar Datar\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-15.0.1\bin;C:\Users\Kedar Datar\AppData\Local\GitHubDesktop\bin;E:\CommonSetup\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-15.0.1\bin;C:\Users\Kedar Datar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Kedar Datar\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="TC_001_Run" classname="actionsteps.Driver" time="0.616">
+    <system-out><![CDATA[browser = chrome
+GMailFrom = kdatar57@gmail.com
+GmailId = kdatar57
+GmailIdPwd = gsif usxa bxns gczq
+DBUserName = SYSTEM
+DBPassword = Oracle_11g
+Info --> Config VBS File Read Successfully
+Info --> Before Test : All Folders Created And Logger
+Info --> Test Start : TC_001_Run
+Passed --> Input Jobs And Email Recipient Read Successfully
+Passed --> Test Success : TC_001_Run
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Jan 11, 2025 11:45:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 131
+Jan 11, 2025 11:45:16 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 131.0.2903.112. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="TC_002_Run[uft automation, Pune](1)" classname="actionsteps.Driver" time="13.276">
+    <system-out><![CDATA[Info --> Test Start : TC_002_Run
+Passed --> Website nakridotcom launched successfully
+Info --> Job Search For : uft automation Pune
+Info --> Job Results For uft automation Pune
+Passed --> Test Success : TC_002_Run
+]]></system-out>
+  </testcase>
+  <testcase name="TC_002_Run[selenium testing, Pune](2)" classname="actionsteps.Driver" time="18.406">
+    <system-out><![CDATA[Info --> Test Start : TC_002_Run
+Passed --> Website nakridotcom launched successfully
+Info --> Job Search For : selenium testing Pune
+Info --> Job Results For selenium testing Pune
+Passed --> Test Success : TC_002_Run
+]]></system-out>
+  </testcase>
+  <testcase name="TC_003_Run" classname="actionsteps.Driver" time="12.052">
+    <system-out><![CDATA[Info --> Test Start : TC_003_Run
+Passed --> Job Results Exported To Excel
+Info --> Summary Report Format Successfull
+Info --> Saving JobReportSummary by local date format
+Info --> Saved To E:\SeleniumProjects\NaukriApiMvn1\Automation\TestReport\JobSummaryReport_11-01-2025 11_45_10.xlsx
+Passed --> Test Success : TC_003_Run
+]]></system-out>
+  </testcase>
+  <testcase name="TC_004_Run" classname="actionsteps.Driver" time="63.284">
+    <system-out><![CDATA[Info --> Test Start : TC_004_Run
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/1
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 429
+ETag: W/"1ad-4WgAsY2JdGysvjVcOc8Rujs3sHI"
+Date: Sat, 11 Jan 2025 06:16:15 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "mobile automation testing,selenium,mobile testing,sdlc,agile methodology,selenium testing,automation testing,maven",
+    "Company Name": "Infosys",
+    "Salary": "Not disclosed",
+    "Experience": "3-5 Yrs",
+    "Job Title": "Java Selenium Automation Testing Engineer",
+    "Expectation": "MCA, MSc, MTech, BCA, BSc, Bachelor Of Technology, Bachelor of Engineering . Service Li...",
+    "Location": "Pune",
+    "id": 1
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/2
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 423
+ETag: W/"1a7-Vqa0v11z3tU3Lu+Jzitee2/N238"
+Date: Sat, 11 Jan 2025 06:16:18 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "Python Testing,Testing Frameworks,Selenium Automation,Java Selenium,Framework,Selenium,Automation testing,Automation",
+    "Company Name": "Rutamsoft",
+    "Salary": "5-8 Lacs PA",
+    "Experience": "3-5 Yrs",
+    "Job Title": "Selenium Automation Test Engineer",
+    "Expectation": "Preferred candidate profile . Education: graduation completed or BCA or BEExperience an...",
+    "Location": "Pune",
+    "id": 2
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/3
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 453
+ETag: W/"1c5-3I+3J5oaJao6e6t3y8U0hyVFo18"
+Date: Sat, 11 Jan 2025 06:16:20 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "C#,Api Automation,Selenium,Automation,Software testing,API,API Testing,Automation testing",
+    "Company Name": "Cognizant",
+    "Salary": "Not disclosed",
+    "Experience": "6-10 Yrs",
+    "Job Title": "Automation Test Engineer - Selenium, C# with API",
+    "Expectation": "Candidate should have good communication skillsSkill : Selenium C# with API. Job Locati...",
+    "Location": "Hybrid - Hyderabad, Chennai, Bangalore Pune",
+    "id": 3
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/4
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 505
+ETag: W/"1f9-z2fJIFHie8SAErf9vAbhs+PAOuc"
+Date: Sat, 11 Jan 2025 06:16:22 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "Test Case Creation,Integration Testing,Automation Testing,Regression Testing,Software Testing Life Cycle,Test Planning,Software Testing,Qa Engineering",
+    "Company Name": "Anti-Virus Software Company",
+    "Salary": "6-14 Lacs PA",
+    "Experience": "1-3 Yrs",
+    "Job Title": "Software Test Engineer- Automation Testing (Selenium)",
+    "Expectation": "Looking for a QA/Test Engineer to participate in all stages of the software lifecycle, ...",
+    "Location": "Pune(Camp +3)",
+    "id": 4
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/5
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 354
+ETag: W/"162-WXXPVDeQo032mkpnUpQrh0FcrRc"
+Date: Sat, 11 Jan 2025 06:16:24 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "automated testing exp with one or more of the following test automation tools: Appium, ...",
+    "Company Name": " Pune (Selenium with C# is must)",
+    "Salary": "4-9 Yrs",
+    "Experience": "Athalye Management Consultants",
+    "Job Title": "Automation Test Engineer ",
+    "Expectation": "Pune",
+    "Location": "Not disclosed",
+    "id": 5
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/6
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 466
+ETag: W/"1d2-23o8Sftg21XoDhNnOpx+NS/gZpY"
+Date: Sat, 11 Jan 2025 06:16:26 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "Maven,GIT,Business transformation,Debugging,System integration,Agile,Selenium,Test cases",
+    "Company Name": "Yash Technologies",
+    "Salary": "Not disclosed",
+    "Experience": "3-7 Yrs",
+    "Job Title": "Automation Tester-Java Selenium Job",
+    "Expectation": "Should be good in understanding Integrated system and derive System Integration test ca...",
+    "Location": "Pune, Kolkata, Mumbai, New Delhi, Hyderabad, Chennai, Bengaluru",
+    "id": 6
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/7
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 470
+ETag: W/"1d6-MXTHN0mP6NTWwHBksPBQnZ7yQgA"
+Date: Sat, 11 Jan 2025 06:16:28 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "Administration,Automation,Automation testing,Testing tools,Programming,Selenium,Application software,Enterprise software",
+    "Company Name": "mspring infotech",
+    "Salary": "Not disclosed",
+    "Experience": "1-3 Yrs",
+    "Job Title": "Automation Tester - Selenium",
+    "Expectation": "Must possess critical thinking skills in addition to good interpersonal and communicati...",
+    "Location": "Pune, Mumbai, Hyderabad, Chennai, Bengaluru",
+    "id": 7
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/8
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 404
+ETag: W/"194-1lXd/zxoj9QqzqSaNR0INZG/fmU"
+Date: Sat, 11 Jan 2025 06:16:30 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "UFT,selenium testing,SOAP TESTING,API,AUTOMATION TESTING,SOAP UI,Selenium Webdriver,Groovy",
+    "Company Name": "Fortune India 500 IT Services Firm",
+    "Salary": "5-13 Lacs PA",
+    "Experience": "5-10 Yrs",
+    "Job Title": "Selenium Tester",
+    "Expectation": "Hi, , We have openings with Infosys for Selenium+Java/UFT, Jenkins, SoapUI+Groovy, Ji...",
+    "Location": "Pune",
+    "id": 8
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/9
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 416
+ETag: W/"1a0-5NyQfRsCdrysygexRGFfmN7muuU"
+Date: Sat, 11 Jan 2025 06:16:32 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "Manager Quality Assurance,GIT,Test scripts,HTTP,Scrum,Agile methodology,Selenium,Test cases",
+    "Company Name": "Jade Global",
+    "Salary": "Not disclosed",
+    "Experience": "4-6 Yrs",
+    "Job Title": "Automation Tester with Selenium Java Experience",
+    "Expectation": "Should have strong experience in Automation Industry Frameworks like BDD, Cucumber / PO...",
+    "Location": "Pune",
+    "id": 9
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/10
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 437
+ETag: W/"1b5-T176U4ew13o4JjeZXzftl83XYgw"
+Date: Sat, 11 Jan 2025 06:16:34 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "Java,Selenium Webdriver,Automation Testing,Api Automation,Bdd,Rest Assured,Selenium,Automation",
+    "Company Name": "Capgemini",
+    "Salary": "Not disclosed",
+    "Experience": "4-8 Yrs",
+    "Job Title": "Software Engineer- Automation Testing",
+    "Expectation": "Strong experience in Java and Selenium WebDriver; familiarity with JUnit/TestNG and CI/...",
+    "Location": "Hybrid - Pune, Chennai, Bengaluru",
+    "id": 10
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/11
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 449
+ETag: W/"1c1-zhbEyGM7oIF4dH+D90NqJafyOeU"
+Date: Sat, 11 Jan 2025 06:16:36 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "Java Selenium,C#,Selenium Testing,Automation Testing,Selenium Automation,Automation,Selenium Automation Testing,Software testing",
+    "Company Name": "Infosys",
+    "Salary": "Not disclosed",
+    "Experience": "3-5 Yrs",
+    "Job Title": "Selenium Automation Tester",
+    "Expectation": "Analytical abilities, Strong Technical Skills, Good communication skills Good understan...",
+    "Location": "Pune, Chennai, Bengaluru",
+    "id": 11
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/12
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 424
+ETag: W/"1a8-b58uXm/5jkFEL/563DCzG02gXh4"
+Date: Sat, 11 Jan 2025 06:16:39 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "Automation Testing,C#,Java Selenium,Selenium Testing,Automation,Selenium,Java,Software testing",
+    "Company Name": "Infosys",
+    "Salary": "Not disclosed",
+    "Experience": "5-10 Yrs",
+    "Job Title": "Java Selenium Tester - (5-10yrs)",
+    "Expectation": "Analytical abilities, Strong Technical Skills, Good communication skills Good understan...",
+    "Location": "Pune, Hyderabad, Bengaluru",
+    "id": 12
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/13
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 422
+ETag: W/"1a6-JhgNqU+ecX3VWubUYlY7UtZI7Bs"
+Date: Sat, 11 Jan 2025 06:16:41 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "Automation Testing,C#,Java Selenium,Selenium,Automation,Selenium Testing,Software testing,Java",
+    "Company Name": "Infosys",
+    "Salary": "Not disclosed",
+    "Experience": "2-5 Yrs",
+    "Job Title": "Java Selenium Tester - (2-5yrs)",
+    "Expectation": "Analytical abilities, Strong Technical Skills, Good communication skills Good understan...",
+    "Location": "Pune, Hyderabad, Bengaluru",
+    "id": 13
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/14
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 440
+ETag: W/"1b8-kyZP4fBEctZOdxo2rLnARXITgAQ"
+Date: Sat, 11 Jan 2025 06:16:43 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "mobile automation testing,machine learning,mobile testing,sdlc,agile methodology,python,project management,data validation",
+    "Company Name": "Infosys",
+    "Salary": "Not disclosed",
+    "Experience": "3-5 Yrs",
+    "Job Title": "Python Selenium Automation Testing Engineer",
+    "Expectation": "MSc, MTech, MCA, BCA, BSc, Bachelor Of Technology, Bachelor of Engineering . Service Li...",
+    "Location": "Pune",
+    "id": 14
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/15
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 438
+ETag: W/"1b6-g9sdDAY/HoF9lZVknLIXlCcm7pE"
+Date: Sat, 11 Jan 2025 06:16:45 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "Java Selenium,C#,Automation Testing,Java,Software testing,Selenium Automation,Selenium Automation Testing,Selenium",
+    "Company Name": "Infosys",
+    "Salary": "Not disclosed",
+    "Experience": "5-10 Yrs",
+    "Job Title": "Selenium Automation Tester",
+    "Expectation": "Analytical abilities, Strong Technical Skills, Good communication skills Good understan...",
+    "Location": "Pune, Hyderabad, Bengaluru",
+    "id": 15
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/16
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 444
+ETag: W/"1bc-RpmJRxhE9PdtrUbdrLyZejgTpFA"
+Date: Sat, 11 Jan 2025 06:16:47 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "Selenium With Java,Automation Testing,Selenium Automation,Automation,Java Selenium,Selenium,Software testing,Java",
+    "Company Name": "Infosys",
+    "Salary": "Not disclosed",
+    "Experience": "3-8 Yrs",
+    "Job Title": "Automation Tester (Java Selenium)-",
+    "Expectation": "Analytical abilities, Strong Technical Skills, Good communication skills Good understan...",
+    "Location": "Pune, Hyderabad, Bengaluru",
+    "id": 16
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/17
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 448
+ETag: W/"1c0-eIUlIno48TT41sRUQlclFiCU5Do"
+Date: Sat, 11 Jan 2025 06:16:49 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "Automation Selenium,Selenium With Java,Automation Testing,Selenium,Automation Tools,Selenium Testing,Tools,Software testing",
+    "Company Name": "Infosys",
+    "Salary": "Not disclosed",
+    "Experience": "5-10 Yrs",
+    "Job Title": "Automation Tester-Bangalore",
+    "Expectation": "and build POCs. You will create requirement specifications from the business needs, def...",
+    "Location": "Pune, Hyderabad, Bengaluru",
+    "id": 17
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/18
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 449
+ETag: W/"1c1-2bRNlm/HYo8AJ8y8kM467qFQ/hU"
+Date: Sat, 11 Jan 2025 06:16:51 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "Automation Selenium,Selenium With Java,Automation Testing,Selenium,Automation Tools,Selenium Testing,Tools,Software testing",
+    "Company Name": "Infosys",
+    "Salary": "Not disclosed",
+    "Experience": "2-7 Yrs",
+    "Job Title": "Automation Tester-(PAN INDIA)",
+    "Expectation": "and build POCs. You will create requirement specifications from the business needs, def...",
+    "Location": "Pune, Hyderabad, Bengaluru",
+    "id": 18
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/19
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 399
+ETag: W/"18f-bJ8+IKYpkaXCAI+W40w/gd6Hcls"
+Date: Sat, 11 Jan 2025 06:16:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "C#,SDET,Javascript,Automation Testing,Selenium,Typescript,API Testing,Automation",
+    "Company Name": "Xoriant",
+    "Salary": "Not disclosed",
+    "Experience": "6-11 Yrs",
+    "Job Title": "Automation Test Engineer",
+    "Expectation": "3+ years hands on working with UI Automation tools like Selenium and modern tools like ...",
+    "Location": "Pune, Mumbai, Bengaluru",
+    "id": 19
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/20
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 443
+ETag: W/"1bb-k7iNh1Op6+KoYDOKnPNFr6c8iak"
+Date: Sat, 11 Jan 2025 06:16:55 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "Selenium Testing,Automation Testing,Selenium Automation,Automation,Hiring,Selenium,Software testing",
+    "Company Name": "HCLTech",
+    "Salary": "Not disclosed",
+    "Experience": "3-8 Yrs",
+    "Job Title": "HCL Hiring For Automation Testing-Selenium",
+    "Expectation": "Skills-. Test Strategy and Planning - Estimation, Techniques, Testing Types, Test Life ...",
+    "Location": "Hybrid - Pune, Noida, Hyderabad",
+    "id": 20
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/21
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 421
+ETag: W/"1a5-QIZrJV2w2asY6tiuUxfI0lBkCd4"
+Date: Sat, 11 Jan 2025 06:16:57 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "Automation,VB SCRIPT,Functional testing,Debugging,Javascript,Regression testing,Selenium,Test cases",
+    "Company Name": "marg compusoft pvt. ltd.",
+    "Salary": "Not disclosed",
+    "Experience": "2-6 Yrs",
+    "Job Title": "UFT Automation Tester",
+    "Expectation": "Experience in working with Agile / Scrum development methodologies . Technical Skills:U...",
+    "Location": "Pune, Chennai",
+    "id": 21
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/22
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 412
+ETag: W/"19c-BNnFImN1NL11U9w4ukIz1NStROI"
+Date: Sat, 11 Jan 2025 06:16:59 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "Automation,VB SCRIPT,Functional testing,Debugging,Javascript,Regression testing,Selenium,Test cases",
+    "Company Name": "Programming.Com",
+    "Salary": "Not disclosed",
+    "Experience": "2-5 Yrs",
+    "Job Title": "UFT Automation Tester",
+    "Expectation": "Experience in working with Agile / Scrum development methodologies. Technical Skills:UF...",
+    "Location": "Pune, Chennai",
+    "id": 22
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/23
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 425
+ETag: W/"1a9-zu4/hdCrbeffkdDtcH60GZh/gC8"
+Date: Sat, 11 Jan 2025 06:17:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "Automation testing,SAP,Business transformation,Agile,Manager Technology,Test planning,Test cases,Testing",
+    "Company Name": "Yash Technologies",
+    "Salary": "Not disclosed",
+    "Experience": "3-7 Yrs",
+    "Job Title": "SAP Test Automation Engineer-UFT Job",
+    "Expectation": ". Well versed in creating Test plan, developing test cases / scripts and establishing t...",
+    "Location": "Pune",
+    "id": 23
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://localhost:3000/jobs/24
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 380
+ETag: W/"17c-Zu9ygpSQm0Y3HXYPoH0mJyXdEGE"
+Date: Sat, 11 Jan 2025 06:17:04 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "Skill Expected": "Client handling,Automation,Manual testing,Agile,Manual,Client,Handling,Software testing",
+    "Company Name": "Diverse Lynx",
+    "Salary": "Not disclosed",
+    "Experience": "6-8 Yrs",
+    "Job Title": "Manual Tester",
+    "Expectation": "good manual testing concepts Proficiency in working in Agile environment is a must Over...",
+    "Location": "Pune",
+    "id": 24
+}
+Passed --> Test Success : TC_004_Run
+]]></system-out>
+  </testcase>
+  <testcase name="TC_005_Run" classname="actionsteps.Driver" time="15.912">
+    <system-out><![CDATA[Info --> Test Start : TC_005_Run
+Passed --> Email Sent Successfully
+Passed --> Test Success : TC_005_Run
+]]></system-out>
+  </testcase>
+</testsuite>
